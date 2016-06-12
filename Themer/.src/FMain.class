@@ -1,0 +1,2434 @@
+' Gambas class file
+
+Public Sub _new()
+
+End
+
+Public Sub Form_Open()
+
+End
+
+Public Sub Button1_Click()
+
+  Shell "gsettings set org.gnome.desktop.interface gtk-theme 'Trevilla-theme'"
+  Shell "gsettings set org.gnome.desktop.wm.preferences theme 'Trevilla-theme'"
+  Shell "gsettings set org.gnome.desktop.interface icon-theme 'Trevilla-TilesIcons'"
+  Shell "gsettings set org.cinnamon.theme name 'White'"
+  Shell "gsettings set org.cinnamon.desktop.wm.preferences theme 'Trevilla-theme'"
+  Shell "gsettings set org.cinnamon.desktop.interface gtk-theme 'Trevilla-theme'"
+Shell "gsettings set org.cinnamon.desktop.interface icon-theme 'Trevilla-TilesIcons'"
+Shell "gsettings set org.gnome.shell.overrides button-layout :minimize,maximize,close"
+Shell "gsettings set org.gnome.desktop.wm.preferences button-layout :minimize,maximize,close"
+Shell "gsettings set org.cinnamon.desktop.wm.preferences button-layout :minimize,maximize,close"
+Shell "gsettings set org.cinnamon.muffin button-layout :minimize,maximize,close"
+Shell "gsettings set org.cinnamon.desktop.interface gtk-decoration-layout :minimize,maximize,close"
+Shell "killall docky"
+Shell "rm ~/.config/autostart/docky.desktop"
+Shell "gsettings set org.cinnamon desktop-layout 'traditional'"
+    
+End
+
+Public Sub Panel2_MouseDown()
+
+  
+
+End
+
+Sub Hide_8Colours()
+  
+  Label16.visible = False
+  Label17.visible = False
+  Label18.visible = False
+   Label19.visible = False
+    Label20.visible = False
+   Label21.visible = False
+   Label22.visible = False
+   Label23.visible = False
+   Label24.visible = False
+   Label25.visible = False
+   Label26.visible = False
+   Label27.visible = False
+   Label28.visible = False
+   Label29.visible = False
+   Label30.visible = False
+   Label31.visible = False
+  
+End
+
+Sub Show_8Colours()
+  
+  Label16.visible = True
+  Label17.visible = True
+  Label18.visible = True
+   Label19.visible = True
+    Label20.visible = True
+   Label21.visible = True
+   Label22.visible = True
+   Label23.visible = True
+   Label24.visible = True
+   Label25.visible = True
+   Label26.visible = True
+   Label27.visible = True
+   Label28.visible = True
+   Label29.visible = True
+   Label30.visible = True
+   Label31.visible = True
+  
+End
+
+
+Public Sub Label16_MouseDown()
+
+  
+
+End
+
+Public Sub Label16_MouseUp()
+
+  Shell "gsettings set org.gnome.desktop.interface gtk-theme 'Windows8'"
+  Shell "gsettings set org.gnome.desktop.wm.preferences theme 'Win8-Blue'"
+  Shell "gsettings set org.gnome.desktop.interface icon-theme 'Windows'"
+  Shell "gsettings set org.cinnamon.theme name 'Eight'"
+  Shell "gsettings set org.cinnamon.desktop.wm.preferences theme 'Win8-Blue'"
+  Shell "gsettings set org.cinnamon.desktop.interface gtk-theme 'Windows8'"
+Shell "gsettings set org.cinnamon.desktop.interface icon-theme 'Windows'"
+Shell "gsettings set org.gnome.shell.overrides button-layout :minimize,maximize,close"
+Shell "gsettings set org.gnome.desktop.wm.preferences button-layout :minimize,maximize,close"
+Shell "gsettings set org.cinnamon.desktop.wm.preferences button-layout :minimize,maximize,close"
+Shell "gsettings set org.cinnamon.muffin button-layout :minimize,maximize,close"
+Shell "gsettings set org.cinnamon.desktop.interface gtk-decoration-layout menu:minimize,maximize,close"
+Shell "killall docky"
+Shell "rm ~/.config/autostart/docky.desktop"
+Shell "gsettings set org.cinnamon desktop-layout 'traditional'"
+
+End
+
+Public Sub Label17_MouseUp()
+
+   Shell "gsettings set org.gnome.desktop.interface gtk-theme 'Windows8'"
+  Shell "gsettings set org.gnome.desktop.wm.preferences theme 'Win8-SilverChalice'"
+  Shell "gsettings set org.gnome.desktop.interface icon-theme 'Windows'"
+  Shell "gsettings set org.cinnamon.theme name 'Eight Grey'"
+  Shell "gsettings set org.cinnamon.desktop.wm.preferences theme 'Win8-SilverChalice'"
+  Shell "gsettings set org.cinnamon.desktop.interface gtk-theme 'Windows8'"
+Shell "gsettings set org.cinnamon.desktop.interface icon-theme 'Windows'"
+Shell "gsettings set org.gnome.shell.overrides button-layout :minimize,maximize,close"
+Shell "gsettings set org.gnome.desktop.wm.preferences button-layout :minimize,maximize,close"
+Shell "gsettings set org.cinnamon.desktop.wm.preferences button-layout :minimize,maximize,close"
+Shell "gsettings set org.cinnamon.muffin button-layout :minimize,maximize,close"
+Shell "gsettings set org.cinnamon.desktop.interface gtk-decoration-layout menu:minimize,maximize,close"
+Shell "killall docky"
+Shell "rm ~/.config/autostart/docky.desktop"
+Shell "gsettings set org.cinnamon desktop-layout 'traditional'"
+
+End
+
+Public Sub Label18_MouseDown()
+
+  
+
+End
+
+Public Sub Label18_MouseUp()
+
+  Shell "gsettings set org.gnome.desktop.interface gtk-theme 'Windows8'"
+  Shell "gsettings set org.gnome.desktop.wm.preferences theme 'Win8-Anakiwa'"
+  Shell "gsettings set org.gnome.desktop.interface icon-theme 'Windows'"
+  Shell "gsettings set org.cinnamon.theme name 'Eight'"
+  Shell "gsettings set org.cinnamon.desktop.wm.preferences theme 'Win8-Anakiwa'"
+  Shell "gsettings set org.cinnamon.desktop.interface gtk-theme 'Windows8'"
+Shell "gsettings set org.cinnamon.desktop.interface icon-theme 'Windows'"
+Shell "gsettings set org.gnome.shell.overrides button-layout :minimize,maximize,close"
+Shell "gsettings set org.gnome.desktop.wm.preferences button-layout :minimize,maximize,close"
+Shell "gsettings set org.cinnamon.desktop.wm.preferences button-layout :minimize,maximize,close"
+Shell "gsettings set org.cinnamon.muffin button-layout :minimize,maximize,close"
+Shell "gsettings set org.cinnamon.desktop.interface gtk-decoration-layout menu:minimize,maximize,close"
+Shell "killall docky"
+Shell "rm ~/.config/autostart/docky.desktop"
+Shell "gsettings set org.cinnamon desktop-layout 'traditional'"
+
+End
+
+Public Sub Label19_MouseUp()
+
+      Shell "gsettings set org.gnome.desktop.interface gtk-theme 'Windows8'"
+  Shell "gsettings set org.gnome.desktop.wm.preferences theme 'Win8-Illusion'"
+  Shell "gsettings set org.gnome.desktop.interface icon-theme 'Windows'"
+  Shell "gsettings set org.cinnamon.theme name 'Eight Pink'"
+  Shell "gsettings set org.cinnamon.desktop.wm.preferences theme 'Win8-Illusion'"
+  Shell "gsettings set org.cinnamon.desktop.interface gtk-theme 'Windows8'"
+Shell "gsettings set org.cinnamon.desktop.interface icon-theme 'Windows'"
+Shell "gsettings set org.gnome.shell.overrides button-layout :minimize,maximize,close"
+Shell "gsettings set org.gnome.desktop.wm.preferences button-layout :minimize,maximize,close"
+Shell "gsettings set org.cinnamon.desktop.wm.preferences button-layout :minimize,maximize,close"
+Shell "gsettings set org.cinnamon.muffin button-layout :minimize,maximize,close"
+Shell "gsettings set org.cinnamon.desktop.interface gtk-decoration-layout menu:minimize,maximize,close"
+Shell "killall docky"
+Shell "rm ~/.config/autostart/docky.desktop"
+Shell "gsettings set org.cinnamon desktop-layout 'traditional'"
+
+End
+
+Public Sub Label20_MouseUp()
+
+        Shell "gsettings set org.gnome.desktop.interface gtk-theme 'Windows8'"
+  Shell "gsettings set org.gnome.desktop.wm.preferences theme 'Win8-Saffron'"
+  Shell "gsettings set org.gnome.desktop.interface icon-theme 'Windows'"
+  Shell "gsettings set org.cinnamon.theme name 'Eight Yellow'"
+  Shell "gsettings set org.cinnamon.desktop.wm.preferences theme 'Win8-Saffron'"
+  Shell "gsettings set org.cinnamon.desktop.interface gtk-theme 'Windows8'"
+Shell "gsettings set org.cinnamon.desktop.interface icon-theme 'Windows'"
+Shell "gsettings set org.gnome.shell.overrides button-layout :minimize,maximize,close"
+Shell "gsettings set org.gnome.desktop.wm.preferences button-layout :minimize,maximize,close"
+Shell "gsettings set org.cinnamon.desktop.wm.preferences button-layout :minimize,maximize,close"
+Shell "gsettings set org.cinnamon.muffin button-layout :minimize,maximize,close"
+Shell "gsettings set org.cinnamon.desktop.interface gtk-decoration-layout menu:minimize,maximize,close"
+Shell "killall docky"
+Shell "rm ~/.config/autostart/docky.desktop"
+Shell "gsettings set org.cinnamon desktop-layout 'traditional'"
+
+
+End
+
+Public Sub Label21_MouseUp()
+
+         Shell "gsettings set org.gnome.desktop.interface gtk-theme 'Windows8'"
+  Shell "gsettings set org.gnome.desktop.wm.preferences theme 'Win8-Conifer'"
+  Shell "gsettings set org.gnome.desktop.interface icon-theme 'Windows'"
+  Shell "gsettings set org.cinnamon.theme name 'Eight Green'"
+  Shell "gsettings set org.cinnamon.desktop.wm.preferences theme 'Win8-Conifer'"
+  Shell "gsettings set org.cinnamon.desktop.interface gtk-theme 'Windows8'"
+Shell "gsettings set org.cinnamon.desktop.interface icon-theme 'Windows'"
+Shell "gsettings set org.gnome.shell.overrides button-layout :minimize,maximize,close"
+Shell "gsettings set org.gnome.desktop.wm.preferences button-layout :minimize,maximize,close"
+Shell "gsettings set org.cinnamon.desktop.wm.preferences button-layout :minimize,maximize,close"
+Shell "gsettings set org.cinnamon.muffin button-layout :minimize,maximize,close"
+Shell "gsettings set org.cinnamon.desktop.interface gtk-decoration-layout menu:minimize,maximize,close"
+Shell "killall docky"
+Shell "rm ~/.config/autostart/docky.desktop"
+Shell "gsettings set org.cinnamon desktop-layout 'traditional'"
+
+End
+
+Public Sub Label22_MouseUp()
+
+          Shell "gsettings set org.gnome.desktop.interface gtk-theme 'Windows8'"
+  Shell "gsettings set org.gnome.desktop.wm.preferences theme 'Win8-Bermuda'"
+  Shell "gsettings set org.gnome.desktop.interface icon-theme 'Windows'"
+  Shell "gsettings set org.cinnamon.theme name 'Eight'"
+  Shell "gsettings set org.cinnamon.desktop.wm.preferences theme 'Win8-Bermuda'"
+  Shell "gsettings set org.cinnamon.desktop.interface gtk-theme 'Windows8'"
+Shell "gsettings set org.cinnamon.desktop.interface icon-theme 'Windows'"
+Shell "gsettings set org.gnome.shell.overrides button-layout :minimize,maximize,close"
+Shell "gsettings set org.gnome.desktop.wm.preferences button-layout :minimize,maximize,close"
+Shell "gsettings set org.cinnamon.desktop.wm.preferences button-layout :minimize,maximize,close"
+Shell "gsettings set org.cinnamon.muffin button-layout :minimize,maximize,close"
+Shell "gsettings set org.cinnamon.desktop.interface gtk-decoration-layout menu:minimize,maximize,close"
+Shell "killall docky"
+Shell "rm ~/.config/autostart/docky.desktop"
+Shell "gsettings set org.cinnamon desktop-layout 'traditional'"
+
+End
+
+Public Sub Label23_MouseDown()
+
+  
+
+End
+
+Public Sub Label23_MouseUp()
+
+  Shell "gsettings set org.gnome.desktop.interface gtk-theme 'Windows8'"
+  Shell "gsettings set org.gnome.desktop.wm.preferences theme 'Win8-SandyBrown'"
+  Shell "gsettings set org.gnome.desktop.interface icon-theme 'Windows'"
+  Shell "gsettings set org.cinnamon.theme name 'Eight Brown'"
+  Shell "gsettings set org.cinnamon.desktop.wm.preferences theme 'Win8-SandyBrown'"
+  Shell "gsettings set org.cinnamon.desktop.interface gtk-theme 'Windows8'"
+Shell "gsettings set org.cinnamon.desktop.interface icon-theme 'Windows'"
+Shell "gsettings set org.gnome.shell.overrides button-layout :minimize,maximize,close"
+Shell "gsettings set org.gnome.desktop.wm.preferences button-layout :minimize,maximize,close"
+Shell "gsettings set org.cinnamon.desktop.wm.preferences button-layout :minimize,maximize,close"
+Shell "gsettings set org.cinnamon.muffin button-layout :minimize,maximize,close"
+Shell "gsettings set org.cinnamon.desktop.interface gtk-decoration-layout menu:minimize,maximize,close"
+Shell "killall docky"
+Shell "rm ~/.config/autostart/docky.desktop"
+Shell "gsettings set org.cinnamon desktop-layout 'traditional'"
+
+End
+
+Public Sub Label26_MouseUp()
+
+   Shell "gsettings set org.gnome.desktop.interface gtk-theme 'Windows8'"
+  Shell "gsettings set org.gnome.desktop.wm.preferences theme 'Win8-Bittersweet'"
+  Shell "gsettings set org.gnome.desktop.interface icon-theme 'Windows'"
+  Shell "gsettings set org.cinnamon.theme name 'Eight Red'"
+  Shell "gsettings set org.cinnamon.desktop.wm.preferences theme 'Win8-Bittersweet'"
+  Shell "gsettings set org.cinnamon.desktop.interface gtk-theme 'Windows8'"
+Shell "gsettings set org.cinnamon.desktop.interface icon-theme 'Windows'"
+Shell "gsettings set org.gnome.shell.overrides button-layout :minimize,maximize,close"
+Shell "gsettings set org.gnome.desktop.wm.preferences button-layout :minimize,maximize,close"
+Shell "gsettings set org.cinnamon.desktop.wm.preferences button-layout :minimize,maximize,close"
+Shell "gsettings set org.cinnamon.muffin button-layout :minimize,maximize,close"
+Shell "gsettings set org.cinnamon.desktop.interface gtk-decoration-layout menu:minimize,maximize,close"
+Shell "killall docky"
+Shell "rm ~/.config/autostart/docky.desktop"
+Shell "gsettings set org.cinnamon desktop-layout 'traditional'"
+
+End
+
+Public Sub Label24_MouseUp()
+
+   Shell "gsettings set org.gnome.desktop.interface gtk-theme 'Windows8'"
+  Shell "gsettings set org.gnome.desktop.wm.preferences theme 'Win8-BrilliantRose'"
+  Shell "gsettings set org.gnome.desktop.interface icon-theme 'Windows'"
+  Shell "gsettings set org.cinnamon.theme name 'Eight Pink'"
+  Shell "gsettings set org.cinnamon.desktop.wm.preferences theme 'Win8-BrilliantRose'"
+  Shell "gsettings set org.cinnamon.desktop.interface gtk-theme 'Windows8'"
+Shell "gsettings set org.cinnamon.desktop.interface icon-theme 'Windows'"
+Shell "gsettings set org.gnome.shell.overrides button-layout :minimize,maximize,close"
+Shell "gsettings set org.gnome.desktop.wm.preferences button-layout :minimize,maximize,close"
+Shell "gsettings set org.cinnamon.desktop.wm.preferences button-layout :minimize,maximize,close"
+Shell "gsettings set org.cinnamon.muffin button-layout :minimize,maximize,close"
+Shell "gsettings set org.cinnamon.desktop.interface gtk-decoration-layout menu:minimize,maximize,close"
+Shell "killall docky"
+Shell "rm ~/.config/autostart/docky.desktop"
+Shell "gsettings set org.cinnamon desktop-layout 'traditional'"
+
+End
+
+Public Sub Label25_MouseUp()
+
+  Shell "gsettings set org.gnome.desktop.interface gtk-theme 'Windows8'"
+  Shell "gsettings set org.gnome.desktop.wm.preferences theme 'Win8-Emerald'"
+  Shell "gsettings set org.gnome.desktop.interface icon-theme 'Windows'"
+  Shell "gsettings set org.cinnamon.theme name 'Eight Green'"
+    Shell "gsettings set org.cinnamon.desktop.wm.preferences theme 'Win8-Emerald'"
+  Shell "gsettings set org.cinnamon.desktop.interface gtk-theme 'Windows8'"
+Shell "gsettings set org.cinnamon.desktop.interface icon-theme 'Windows'"
+Shell "gsettings set org.gnome.shell.overrides button-layout :minimize,maximize,close"
+Shell "gsettings set org.gnome.desktop.wm.preferences button-layout :minimize,maximize,close"
+Shell "gsettings set org.cinnamon.desktop.wm.preferences button-layout :minimize,maximize,close"
+Shell "gsettings set org.cinnamon.muffin button-layout :minimize,maximize,close"
+Shell "gsettings set org.cinnamon.desktop.interface gtk-decoration-layout menu:minimize,maximize,close"
+Shell "killall docky"
+Shell "rm ~/.config/autostart/docky.desktop"
+Shell "gsettings set org.cinnamon desktop-layout 'traditional'"
+
+End
+
+Public Sub Label27_MouseUp()
+
+  Shell "gsettings set org.gnome.desktop.interface gtk-theme 'Windows8'"
+  Shell "gsettings set org.gnome.desktop.wm.preferences theme 'Win8-Heliotrope'"
+  Shell "gsettings set org.gnome.desktop.interface icon-theme 'Windows'"
+  Shell "gsettings set org.cinnamon.theme name 'Eight Pink'"
+  Shell "gsettings set org.cinnamon.desktop.wm.preferences theme 'Win8-Heliotrope'"
+  Shell "gsettings set org.cinnamon.desktop.interface gtk-theme 'Windows8'"
+Shell "gsettings set org.cinnamon.desktop.interface icon-theme 'Windows'"
+Shell "gsettings set org.gnome.shell.overrides button-layout :minimize,maximize,close"
+Shell "gsettings set org.gnome.desktop.wm.preferences button-layout :minimize,maximize,close"
+Shell "gsettings set org.cinnamon.desktop.wm.preferences button-layout :minimize,maximize,close"
+Shell "gsettings set org.cinnamon.muffin button-layout :minimize,maximize,close"
+Shell "gsettings set org.cinnamon.desktop.interface gtk-decoration-layout menu:minimize,maximize,close"
+Shell "killall docky"
+Shell "rm ~/.config/autostart/docky.desktop"
+Shell "gsettings set org.cinnamon desktop-layout 'traditional'"
+
+End
+
+Public Sub Label28_MouseUp()
+
+  Shell "gsettings set org.gnome.desktop.interface gtk-theme 'Windows8'"
+  Shell "gsettings set org.gnome.desktop.wm.preferences theme 'Win8-Malibu'"
+  Shell "gsettings set org.gnome.desktop.interface icon-theme 'Windows'"
+  Shell "gsettings set org.cinnamon.theme name 'Eight'"
+  Shell "gsettings set org.cinnamon.desktop.wm.preferences theme 'Win8-Malibu'"
+  Shell "gsettings set org.cinnamon.desktop.interface gtk-theme 'Windows8'"
+Shell "gsettings set org.cinnamon.desktop.interface icon-theme 'Windows'"
+Shell "gsettings set org.gnome.shell.overrides button-layout :minimize,maximize,close"
+Shell "gsettings set org.gnome.desktop.wm.preferences button-layout :minimize,maximize,close"
+Shell "gsettings set org.cinnamon.desktop.wm.preferences button-layout :minimize,maximize,close"
+Shell "gsettings set org.cinnamon.muffin button-layout :minimize,maximize,close"
+Shell "gsettings set org.cinnamon.desktop.interface gtk-decoration-layout menu:minimize,maximize,close"
+Shell "killall docky"
+Shell "rm ~/.config/autostart/docky.desktop"
+Shell "gsettings set org.cinnamon desktop-layout 'traditional'"
+
+End
+
+Public Sub Label29_MouseUp()
+
+  Shell "gsettings set org.gnome.desktop.interface gtk-theme 'Windows8'"
+  Shell "gsettings set org.gnome.desktop.wm.preferences theme 'Win8-Melrose'"
+  Shell "gsettings set org.gnome.desktop.interface icon-theme 'Windows'"
+  Shell "gsettings set org.cinnamon.theme name 'Eight Pink'"
+  Shell "gsettings set org.cinnamon.desktop.wm.preferences theme 'Win8-Melrose'"
+  Shell "gsettings set org.cinnamon.desktop.interface gtk-theme 'Windows8'"
+Shell "gsettings set org.cinnamon.desktop.interface icon-theme 'Windows'"
+Shell "gsettings set org.gnome.shell.overrides button-layout :minimize,maximize,close"
+Shell "gsettings set org.gnome.desktop.wm.preferences button-layout :minimize,maximize,close"
+Shell "gsettings set org.cinnamon.desktop.wm.preferences button-layout :minimize,maximize,close"
+Shell "gsettings set org.cinnamon.muffin button-layout :minimize,maximize,close"
+Shell "gsettings set org.cinnamon.desktop.interface gtk-decoration-layout menu:minimize,maximize,close"
+Shell "killall docky"
+Shell "rm ~/.config/autostart/docky.desktop"
+Shell "gsettings set org.cinnamon desktop-layout 'traditional'"
+
+End
+
+Public Sub Label30_MouseUp()
+
+  Shell "gsettings set org.gnome.desktop.interface gtk-theme 'Windows8'"
+  Shell "gsettings set org.gnome.desktop.wm.preferences theme 'Win8-BisonHide'"
+  Shell "gsettings set org.gnome.desktop.interface icon-theme 'Windows'"
+  Shell "gsettings set org.cinnamon.theme name 'Eight Brown'"
+  Shell "gsettings set org.cinnamon.desktop.wm.preferences theme 'Win8-BisonHide'"
+  Shell "gsettings set org.cinnamon.desktop.interface gtk-theme 'Windows8'"
+Shell "gsettings set org.cinnamon.desktop.interface icon-theme 'Windows'"
+Shell "gsettings set org.gnome.shell.overrides button-layout :minimize,maximize,close"
+Shell "gsettings set org.gnome.desktop.wm.preferences button-layout :minimize,maximize,close"
+Shell "gsettings set org.cinnamon.desktop.wm.preferences button-layout :minimize,maximize,close"
+Shell "gsettings set org.cinnamon.muffin button-layout :minimize,maximize,close"
+Shell "gsettings set org.cinnamon.desktop.interface gtk-decoration-layout menu:minimize,maximize,close"
+Shell "killall docky"
+Shell "rm ~/.config/autostart/docky.desktop"
+Shell "gsettings set org.cinnamon desktop-layout 'traditional'"
+
+End
+
+Public Sub Label31_MouseUp()
+
+  Shell "gsettings set org.gnome.desktop.interface gtk-theme 'Windows8'"
+  Shell "gsettings set org.gnome.desktop.wm.preferences theme 'Win8-Alabaster'"
+  Shell "gsettings set org.gnome.desktop.interface icon-theme 'Windows'"
+  Shell "gsettings set org.cinnamon.theme name 'Eight Grey'"
+  Shell "gsettings set org.cinnamon.desktop.wm.preferences theme 'Win8-Alabaster'"
+  Shell "gsettings set org.cinnamon.desktop.interface gtk-theme 'Windows8'"
+Shell "gsettings set org.cinnamon.desktop.interface icon-theme 'Windows'"
+Shell "gsettings set org.gnome.shell.overrides button-layout :minimize,maximize,close"
+Shell "gsettings set org.gnome.desktop.wm.preferences button-layout :minimize,maximize,close"
+Shell "gsettings set org.cinnamon.desktop.wm.preferences button-layout :minimize,maximize,close"
+Shell "gsettings set org.cinnamon.muffin button-layout :minimize,maximize,close"
+Shell "gsettings set org.cinnamon.desktop.interface gtk-decoration-layout menu:minimize,maximize,close"
+Shell "killall docky"
+Shell "rm ~/.config/autostart/docky.desktop"
+Shell "gsettings set org.cinnamon desktop-layout 'traditional'"
+
+End
+
+Public Sub Label3_MouseDown()
+
+  Win8Themes.Visible = True
+   Win7Themes.Visible = False
+   Winxpthemes.visible = False
+    win2kthemes.visible = False
+    macosxthemes.visible = False
+    ubuntuthemes.visible = False
+    ferenthemes.visible = False
+    numixthemes.visible = False
+     linuxmintthemes.visible = False
+     ozonthemes.visible = False
+     FlatthemesThemes.visible = False
+     Win10themesthemes.visible = False
+     Show_8Colours
+     
+
+End
+
+Public Sub Label4_MouseDown()
+
+    Win8Themes.Visible = False
+   Win7Themes.Visible = True
+   Winxpthemes.visible = False
+    win2kthemes.visible = False
+    macosxthemes.visible = False
+    ubuntuthemes.visible = False
+    ferenthemes.visible = False
+    numixthemes.visible = False
+     linuxmintthemes.visible = False
+     ozonthemes.visible = False
+     FlatthemesThemes.visible = False
+     Win10themesthemes.visible = False
+     Hide_8Colours
+
+End
+
+Public Sub Button2_Click()
+
+  Shell "gsettings set org.gnome.desktop.interface gtk-theme 'evopop-gtk-theme'"
+  Shell "gsettings set org.gnome.desktop.wm.preferences theme 'Adwaita'"
+  Shell "gsettings set org.gnome.desktop.interface icon-theme 'EvoPop'"
+  Shell "gsettings set org.cinnamon.theme name 'feren'"
+  Shell "gsettings set org.cinnamon.desktop.wm.preferences theme 'Adwaita'"
+  Shell "gsettings set org.cinnamon.desktop.interface gtk-theme 'evopop-gtk-theme'"
+Shell "gsettings set org.cinnamon.desktop.interface icon-theme 'EvoPop'"
+Shell "gsettings set org.gnome.shell.overrides button-layout :minimize,maximize,close"
+Shell "gsettings set org.gnome.desktop.wm.preferences button-layout :minimize,maximize,close"
+Shell "gsettings set org.cinnamon.desktop.wm.preferences button-layout :minimize,maximize,close"
+Shell "gsettings set org.cinnamon.muffin button-layout :minimize,maximize,close"
+Shell "gsettings set org.cinnamon.desktop.interface gtk-decoration-layout :minimize,maximize,close"
+Shell "killall docky"
+Shell "rm ~/.config/autostart/docky.desktop"
+Shell "gsettings set org.cinnamon desktop-layout 'flipped'"
+
+End
+
+Public Sub Button4_Click()
+
+  
+
+End
+
+Public Sub Button3_Click()
+
+  
+
+End
+
+Public Sub Label5_MouseDown()
+
+   Win8Themes.Visible = False
+   Win7Themes.Visible = False
+   Winxpthemes.visible = True
+   win2kthemes.visible = False
+   macosxthemes.visible = False
+   ubuntuthemes.visible = False
+   ferenthemes.visible = False
+   numixthemes.visible = False
+    linuxmintthemes.visible = False
+    ozonthemes.visible = False
+    FlatthemesThemes.visible = False
+    Win10themesthemes.visible = False
+    Hide_8Colours
+
+End
+
+Public Sub Button5_Click()
+
+  Shell "gsettings set org.gnome.desktop.interface gtk-theme 'Windows Classic'"
+  Shell "gsettings set org.gnome.desktop.wm.preferences theme 'Win95'"
+  Shell "gsettings set org.gnome.desktop.interface icon-theme 'Classic95'"
+  Shell "gsettings set org.cinnamon.theme name 'Nostalgia 98'"
+  Shell "gsettings set org.cinnamon.desktop.wm.preferences theme 'Win95'"
+  Shell "gsettings set org.cinnamon.desktop.interface gtk-theme 'Windows Classic'"
+Shell "gsettings set org.cinnamon.desktop.interface icon-theme 'Classic95'"
+Shell "gsettings set org.gnome.shell.overrides button-layout menu:minimize,maximize,close"
+Shell "gsettings set org.gnome.desktop.wm.preferences button-layout menu:minimize,maximize,close"
+Shell "gsettings set org.cinnamon.desktop.wm.preferences button-layout menu:minimize,maximize,close"
+Shell "gsettings set org.cinnamon.muffin button-layout menu:minimize,maximize,close"
+Shell "gsettings set org.cinnamon desktop-layout 'traditional'"
+Shell "gsettings set org.cinnamon.desktop.interface gtk-decoration-layout menu:minimize,maximize,close"
+Shell "killall docky"
+Shell "rm ~/.config/autostart/docky.desktop"
+Shell "gsettings set org.cinnamon desktop-layout 'traditional'"
+
+End
+
+Public Sub Label6_MouseDown()
+
+  Win8Themes.Visible = False
+   Win7Themes.Visible = False
+   Winxpthemes.visible = False
+   win2kthemes.visible = True
+macosxthemes.visible = False
+ubuntuthemes.visible = False
+ferenthemes.visible = False
+numixthemes.visible = False
+ linuxmintthemes.visible = False
+ ozonthemes.visible = False
+ FlatthemesThemes.visible = False
+ Win10themesthemes.visible = False
+ Hide_8Colours
+
+End
+
+Public Sub Label7_MouseDown()
+
+  Win8Themes.Visible = False
+   Win7Themes.Visible = False
+   Winxpthemes.visible = False
+   win2kthemes.visible = False
+   macosxthemes.visible = True
+   ubuntuthemes.visible = False
+   ferenthemes.visible = False
+   numixthemes.visible = False
+    linuxmintthemes.visible = False
+    ozonthemes.visible = False
+    FlatthemesThemes.visible = False
+    Win10themesthemes.visible = False
+    Hide_8Colours
+
+End
+
+Public Sub Button6_Click()
+
+  Shell "gsettings set org.gnome.desktop.interface gtk-theme 'Yosemite'"
+  Shell "gsettings set org.gnome.desktop.wm.preferences theme 'Yosemite'"
+  Shell "gsettings set org.gnome.desktop.interface icon-theme 'MBuntu-OS-Y'"
+  Shell "gsettings set org.cinnamon.theme name 'Yosemite-Cinnamon'"
+  Shell "gsettings set org.cinnamon.desktop.wm.preferences theme 'Yosemite'"
+Shell "gsettings set org.cinnamon.desktop.interface gtk-theme 'Yosemite'"
+Shell "gsettings set org.cinnamon.desktop.interface icon-theme 'MBuntu-OS-Y'"
+Shell "gsettings set org.gnome.shell.overrides button-layout close,minimize,maximize:"
+Shell "gsettings set org.gnome.desktop.wm.preferences button-layout close,minimize,maximize:"
+Shell "gsettings set org.cinnamon.desktop.wm.preferences button-layout close,minimize,maximize:"
+Shell "gsettings set org.cinnamon.muffin button-layout close,minimize,maximize:"
+Shell "gsettings set org.cinnamon.desktop.interface gtk-decoration-layout close,minimize,maximize:"
+Shell "killall docky"
+Shell "gconftool-2 --type String --set /apps/docky-2/Docky/Interface/DockPreferences/Dock1/Position Bottom"
+Shell "gconftool-2 --type Boolean --set /apps/docky-2/Docky/Interface/DockPreferences/Dock1/ThreeDimensional False"
+Shell "gconftool-2 --type String --set /apps/docky-2/Docky/Interface/DockPreferences/Dock1/Plugins [Trash]"
+Shell "gconftool-2 --type String --set /apps/docky-2/Docky/Services/ThemeService/Theme MBuntu-Y-A"
+Shell "gconftool-2 --type String --set /apps/docky-2/Docky/Interface/DockPreferences/Dock1/Autohide None"
+Shell "gconftool-2 --type Boolean --set /apps/docky-2/Docky/Interface/DockPreferences/Dock1/PanelMode False"
+Shell "gconftool-2 --type Boolean --set /apps/docky-2/Docky/Interface/DockPreferences/Dock1/WindowManager True"
+Shell "gconftool-2 --type Boolean --set /apps/docky-2/Docky/Interface/DockPreferences/Dock1/ZoomEnabled False"
+Shell "gconftool-2 --type String --set /apps/docky-2/Docky/Interface/DockPreferences/Dock1/ZoomPercent 1.3100000000000000"
+Shell "gconftool-2 --type Boolean --set /apps/docky-2/Docky/Items/DockyItem/ShowDockyItem False"
+Shell "cp '/usr/share/feren-os/feren-themer/STARTUP-APPLICATIONS/docky.desktop' ~/.config/autostart/"
+Shell "gsettings set org.cinnamon desktop-layout 'flipped'"
+Shell "gsettings set org.cinnamon panel-top-height 25"
+Shell "docky &"
+Shell "gconftool-2 --type String --set /apps/docky-2/Docky/Interface/DockPreferences/Dock1/Plugins [Trash]"
+
+End
+
+Public Sub Label8_MouseDown()
+
+   Win8Themes.Visible = False
+   Win7Themes.Visible = False
+   Winxpthemes.visible = False
+   win2kthemes.visible = False
+   macosxthemes.visible = False
+   ubuntuthemes.visible = True
+   ferenthemes.visible = False
+   numixthemes.visible = False
+    linuxmintthemes.visible = False
+    ozonthemes.visible = False
+    FlatthemesThemes.visible = False
+    Win10themesthemes.visible = False
+    Hide_8Colours
+
+End
+
+Public Sub Button8_Click()
+
+  Shell "gsettings set org.gnome.desktop.interface gtk-theme 'Ambiance'"
+  Shell "gsettings set org.gnome.desktop.wm.preferences theme 'Ambiance'"
+  Shell "gsettings set org.gnome.desktop.interface icon-theme 'ubuntu-mono-dark'"
+  Shell "gsettings set org.cinnamon.theme name 'Ambiance Minty'"
+  Shell "gsettings set org.cinnamon.desktop.wm.preferences theme 'Ambiance'"
+Shell "gsettings set org.cinnamon.desktop.interface gtk-theme 'Ambiance'"
+Shell "gsettings set org.cinnamon.desktop.interface icon-theme 'ubuntu-mono-dark'"
+Shell "gsettings set org.gnome.shell.overrides button-layout close,maximize,minimize:"
+Shell "gsettings set org.gnome.desktop.wm.preferences button-layout close,maximize,minimize:"
+Shell "gsettings set org.cinnamon.desktop.wm.preferences button-layout close,maximize,minimize:"
+Shell "gsettings set org.cinnamon desktop-layout 'flipped'"
+Shell "gsettings set org.cinnamon.muffin button-layout close,minimize,maximize:"
+Shell "gsettings set org.cinnamon.desktop.interface gtk-decoration-layout close,minimize,maximize:"
+Shell "killall docky"
+Shell "rm ~/.config/autostart/docky.desktop"
+
+End
+
+Public Sub Button9_Click()
+
+  Shell "gsettings set org.gnome.desktop.interface gtk-theme 'Radiance'"
+  Shell "gsettings set org.gnome.desktop.wm.preferences theme 'Radiance'"
+  Shell "gsettings set org.gnome.desktop.interface icon-theme 'ubuntu-mono-light'"
+  Shell "gsettings set org.cinnamon.theme name 'Ambiance Minty'"
+  Shell "gsettings set org.cinnamon.desktop.wm.preferences theme 'Radiance'"
+Shell "gsettings set org.cinnamon.desktop.interface gtk-theme 'Radiance'"
+Shell "gsettings set org.cinnamon.desktop.interface icon-theme 'ubuntu-mono-light'"
+Shell "gsettings set org.gnome.shell.overrides button-layout close,maximize,minimize:"
+Shell "gsettings set org.gnome.desktop.wm.preferences button-layout close,maximize,minimize:"
+Shell "gsettings set org.cinnamon.desktop.wm.preferences button-layout close,maximize,minimize:"
+Shell "gsettings set org.cinnamon desktop-layout 'flipped'"
+Shell "gsettings set org.cinnamon.muffin button-layout close,minimize,maximize:"
+Shell "gsettings set org.cinnamon.desktop.interface gtk-decoration-layout close,minimize,maximize:"
+Shell "killall docky"
+Shell "rm ~/.config/autostart/docky.desktop"
+
+End
+
+Public Sub Label66_MouseDown()
+
+  Shell "gsettings set org.gnome.desktop.interface gtk-theme 'Ambiance-Flat-Aqua'"
+  Shell "gsettings set org.gnome.desktop.wm.preferences theme 'Ambiance-Flat-Aqua'"
+  Shell "gsettings set org.gnome.desktop.interface icon-theme 'ubuntu-mono-dark'"
+  Shell "gsettings set org.cinnamon.theme name 'Ambiance Minty'"
+  Shell "gsettings set org.cinnamon.desktop.wm.preferences theme 'Ambiance-Flat-Aqua'"
+Shell "gsettings set org.cinnamon.desktop.interface gtk-theme 'Ambiance-Flat-Aqua'"
+Shell "gsettings set org.cinnamon.desktop.interface icon-theme 'ubuntu-mono-dark'"
+Shell "gsettings set org.gnome.shell.overrides button-layout close,maximize,minimize:"
+Shell "gsettings set org.gnome.desktop.wm.preferences button-layout close,maximize,minimize:"
+Shell "gsettings set org.cinnamon.desktop.wm.preferences button-layout close,maximize,minimize:"
+Shell "gsettings set org.cinnamon desktop-layout 'flipped'"
+Shell "gsettings set org.cinnamon.muffin button-layout close,minimize,maximize:"
+Shell "gsettings set org.cinnamon.desktop.interface gtk-decoration-layout close,minimize,maximize:"
+Shell "killall docky"
+Shell "rm ~/.config/autostart/docky.desktop"
+
+End
+
+Public Sub Label67_MouseDown()
+
+  Shell "gsettings set org.gnome.desktop.interface gtk-theme 'Ambiance-Flat-Blue'"
+  Shell "gsettings set org.gnome.desktop.wm.preferences theme 'Ambiance-Flat-Blue'"
+  Shell "gsettings set org.gnome.desktop.interface icon-theme 'ubuntu-mono-dark'"
+  Shell "gsettings set org.cinnamon.theme name 'Ambiance Minty'"
+  Shell "gsettings set org.cinnamon.desktop.wm.preferences theme 'Ambiance-Flat-Blue'"
+Shell "gsettings set org.cinnamon.desktop.interface gtk-theme 'Ambiance-Flat-Blue'"
+Shell "gsettings set org.cinnamon.desktop.interface icon-theme 'ubuntu-mono-dark'"
+Shell "gsettings set org.gnome.shell.overrides button-layout close,maximize,minimize:"
+Shell "gsettings set org.gnome.desktop.wm.preferences button-layout close,maximize,minimize:"
+Shell "gsettings set org.cinnamon desktop-layout 'flipped'"
+Shell "gsettings set org.cinnamon.muffin button-layout close,minimize,maximize:"
+Shell "gsettings set org.cinnamon.desktop.interface gtk-decoration-layout close,minimize,maximize:"
+Shell "killall docky"
+Shell "rm ~/.config/autostart/docky.desktop"
+
+End
+
+Public Sub Label68_MouseDown()
+
+  Shell "gsettings set org.gnome.desktop.interface gtk-theme 'Ambiance-Flat-Blue-Spring'"
+  Shell "gsettings set org.gnome.desktop.wm.preferences theme 'Ambiance-Flat-Blue-Spring'"
+  Shell "gsettings set org.gnome.desktop.interface icon-theme 'ubuntu-mono-dark'"
+  Shell "gsettings set org.cinnamon.theme name 'Ambiance Minty'"
+  Shell "gsettings set org.cinnamon.desktop.wm.preferences theme 'Ambiance-Flat-Blue-Spring'"
+Shell "gsettings set org.cinnamon.desktop.interface gtk-theme 'Ambiance-Flat-Blue-Spring'"
+Shell "gsettings set org.cinnamon.desktop.interface icon-theme 'ubuntu-mono-dark'"
+Shell "gsettings set org.gnome.shell.overrides button-layout close,maximize,minimize:"
+Shell "gsettings set org.gnome.desktop.wm.preferences button-layout close,maximize,minimize:"
+Shell "gsettings set org.cinnamon.desktop.wm.preferences button-layout close,maximize,minimize:"
+Shell "gsettings set org.cinnamon desktop-layout 'flipped'"
+Shell "gsettings set org.cinnamon.muffin button-layout close,minimize,maximize:"
+Shell "gsettings set org.cinnamon.desktop.interface gtk-decoration-layout close,minimize,maximize:"
+Shell "killall docky"
+Shell "rm ~/.config/autostart/docky.desktop"
+
+End
+
+Public Sub Label69_MouseDown()
+
+  Shell "gsettings set org.gnome.desktop.interface gtk-theme 'Ambiance-Flat-Brown'"
+  Shell "gsettings set org.gnome.desktop.wm.preferences theme 'Ambiance-Flat-Brown'"
+  Shell "gsettings set org.gnome.desktop.interface icon-theme 'ubuntu-mono-dark'"
+  Shell "gsettings set org.cinnamon.theme name 'Ambiance Minty'"
+  Shell "gsettings set org.cinnamon.desktop.wm.preferences theme 'Ambiance-Flat-Brown'"
+Shell "gsettings set org.cinnamon.desktop.interface gtk-theme 'Ambiance-Flat-Brown'"
+Shell "gsettings set org.cinnamon.desktop.interface icon-theme 'ubuntu-mono-dark'"
+Shell "gsettings set org.gnome.shell.overrides button-layout close,maximize,minimize:"
+Shell "gsettings set org.gnome.desktop.wm.preferences button-layout close,maximize,minimize:"
+Shell "gsettings set org.cinnamon.desktop.wm.preferences button-layout close,maximize,minimize:"
+Shell "gsettings set org.cinnamon desktop-layout 'flipped'"
+Shell "gsettings set org.cinnamon.muffin button-layout close,minimize,maximize:"
+Shell "gsettings set org.cinnamon.desktop.interface gtk-decoration-layout close,minimize,maximize:"
+Shell "killall docky"
+Shell "rm ~/.config/autostart/docky.desktop"
+
+End
+
+Public Sub Label70_MouseDown()
+
+  Shell "gsettings set org.gnome.desktop.interface gtk-theme 'Ambiance-Flat-Graphite'"
+  Shell "gsettings set org.gnome.desktop.wm.preferences theme 'Ambiance-Flat-Graphite'"
+  Shell "gsettings set org.gnome.desktop.interface icon-theme 'ubuntu-mono-dark'"
+  Shell "gsettings set org.cinnamon.theme name 'Ambiance Minty'"
+  Shell "gsettings set org.cinnamon.desktop.wm.preferences theme 'Ambiance-Flat-Graphite'"
+Shell "gsettings set org.cinnamon.desktop.interface gtk-theme 'Ambiance-Flat-Graphite'"
+Shell "gsettings set org.cinnamon.desktop.interface icon-theme 'ubuntu-mono-dark'"
+Shell "gsettings set org.gnome.shell.overrides button-layout close,maximize,minimize:"
+Shell "gsettings set org.gnome.desktop.wm.preferences button-layout close,maximize,minimize:"
+Shell "gsettings set org.cinnamon.desktop.wm.preferences button-layout close,maximize,minimize:"
+Shell "gsettings set org.cinnamon desktop-layout 'flipped'"
+Shell "gsettings set org.cinnamon.muffin button-layout close,minimize,maximize:"
+Shell "gsettings set org.cinnamon.desktop.interface gtk-decoration-layout close,minimize,maximize:"
+Shell "killall docky"
+Shell "rm ~/.config/autostart/docky.desktop"
+
+End
+
+Public Sub Label71_MouseDown()
+
+  Shell "gsettings set org.gnome.desktop.interface gtk-theme 'Ambiance-Flat-Green'"
+  Shell "gsettings set org.gnome.desktop.wm.preferences theme 'Ambiance-Flat-Green'"
+  Shell "gsettings set org.gnome.desktop.interface icon-theme 'ubuntu-mono-dark'"
+  Shell "gsettings set org.cinnamon.theme name 'Ambiance Minty'"
+  Shell "gsettings set org.cinnamon.desktop.wm.preferences theme 'Ambiance-Flat-Green'"
+Shell "gsettings set org.cinnamon.desktop.interface gtk-theme 'Ambiance-Flat-Green'"
+Shell "gsettings set org.cinnamon.desktop.interface icon-theme 'ubuntu-mono-dark'"
+Shell "gsettings set org.gnome.shell.overrides button-layout close,maximize,minimize:"
+Shell "gsettings set org.gnome.desktop.wm.preferences button-layout close,maximize,minimize:"
+Shell "gsettings set org.cinnamon.desktop.wm.preferences button-layout close,maximize,minimize:"
+Shell "gsettings set org.cinnamon desktop-layout 'flipped'"
+Shell "gsettings set org.cinnamon.muffin button-layout close,minimize,maximize:"
+Shell "gsettings set org.cinnamon.desktop.interface gtk-decoration-layout close,minimize,maximize:"
+Shell "killall docky"
+Shell "rm ~/.config/autostart/docky.desktop"
+
+End
+
+Public Sub Label72_MouseDown()
+
+  Shell "gsettings set org.gnome.desktop.interface gtk-theme 'Ambiance-Flat-Manila'"
+  Shell "gsettings set org.gnome.desktop.wm.preferences theme 'Ambiance-Flat-Manila'"
+  Shell "gsettings set org.gnome.desktop.interface icon-theme 'ubuntu-mono-dark'"
+  Shell "gsettings set org.cinnamon.theme name 'Ambiance Minty'"
+  Shell "gsettings set org.cinnamon.desktop.wm.preferences theme 'Ambiance-Flat-Manila'"
+Shell "gsettings set org.cinnamon.desktop.interface gtk-theme 'Ambiance-Flat-Manila'"
+Shell "gsettings set org.cinnamon.desktop.interface icon-theme 'ubuntu-mono-dark'"
+Shell "gsettings set org.gnome.shell.overrides button-layout close,maximize,minimize:"
+Shell "gsettings set org.gnome.desktop.wm.preferences button-layout close,maximize,minimize:"
+Shell "gsettings set org.cinnamon.desktop.wm.preferences button-layout close,maximize,minimize:"
+Shell "gsettings set org.cinnamon desktop-layout 'flipped'"
+Shell "gsettings set org.cinnamon.muffin button-layout close,minimize,maximize:"
+Shell "gsettings set org.cinnamon.desktop.interface gtk-decoration-layout close,minimize,maximize:"
+Shell "killall docky"
+Shell "rm ~/.config/autostart/docky.desktop"
+
+End
+
+Public Sub Label73_MouseDown()
+
+  Shell "gsettings set org.gnome.desktop.interface gtk-theme 'Ambiance-Flat-Orange'"
+  Shell "gsettings set org.gnome.desktop.wm.preferences theme 'Ambiance-Flat-Orange'"
+  Shell "gsettings set org.gnome.desktop.interface icon-theme 'ubuntu-mono-dark'"
+  Shell "gsettings set org.cinnamon.theme name 'Ambiance Minty'"
+  Shell "gsettings set org.cinnamon.desktop.wm.preferences theme 'Ambiance-Flat-Orange'"
+Shell "gsettings set org.cinnamon.desktop.interface gtk-theme 'Ambiance-Flat-Orange'"
+Shell "gsettings set org.cinnamon.desktop.interface icon-theme 'ubuntu-mono-dark'"
+Shell "gsettings set org.gnome.shell.overrides button-layout close,maximize,minimize:"
+Shell "gsettings set org.gnome.desktop.wm.preferences button-layout close,maximize,minimize:"
+Shell "gsettings set org.cinnamon.desktop.wm.preferences button-layout close,maximize,minimize:"
+Shell "gsettings set org.cinnamon desktop-layout 'flipped'"
+Shell "gsettings set org.cinnamon.muffin button-layout close,minimize,maximize:"
+Shell "gsettings set org.cinnamon.desktop.interface gtk-decoration-layout close,minimize,maximize:"
+Shell "killall docky"
+Shell "rm ~/.config/autostart/docky.desktop"
+
+End
+
+Public Sub Label74_MouseDown()
+
+  Shell "gsettings set org.gnome.desktop.interface gtk-theme 'Ambiance-Flat-Pink'"
+  Shell "gsettings set org.gnome.desktop.wm.preferences theme 'Ambiance-Flat-Pink'"
+  Shell "gsettings set org.gnome.desktop.interface icon-theme 'ubuntu-mono-dark'"
+  Shell "gsettings set org.cinnamon.theme name 'Ambiance Minty'"
+  Shell "gsettings set org.cinnamon.desktop.wm.preferences theme 'Ambiance-Flat-Pink'"
+Shell "gsettings set org.cinnamon.desktop.interface gtk-theme 'Ambiance-Flat-Pink'"
+Shell "gsettings set org.cinnamon.desktop.interface icon-theme 'ubuntu-mono-dark'"
+Shell "gsettings set org.gnome.shell.overrides button-layout close,maximize,minimize:"
+Shell "gsettings set org.gnome.desktop.wm.preferences button-layout close,maximize,minimize:"
+Shell "gsettings set org.cinnamon.desktop.wm.preferences button-layout close,maximize,minimize:"
+Shell "gsettings set org.cinnamon desktop-layout 'flipped'"
+Shell "gsettings set org.cinnamon.muffin button-layout close,minimize,maximize:"
+Shell "gsettings set org.cinnamon.desktop.interface gtk-decoration-layout close,minimize,maximize:"
+Shell "killall docky"
+Shell "rm ~/.config/autostart/docky.desktop"
+
+End
+
+Public Sub Label75_MouseDown()
+
+  Shell "gsettings set org.gnome.desktop.interface gtk-theme 'Ambiance-Flat-Purple'"
+  Shell "gsettings set org.gnome.desktop.wm.preferences theme 'Ambiance-Flat-Purple'"
+  Shell "gsettings set org.gnome.desktop.interface icon-theme 'ubuntu-mono-dark'"
+  Shell "gsettings set org.cinnamon.theme name 'Ambiance Minty'"
+  Shell "gsettings set org.cinnamon.desktop.wm.preferences theme 'Ambiance-Flat-Purple'"
+Shell "gsettings set org.cinnamon.desktop.interface gtk-theme 'Ambiance-Flat-Purple'"
+Shell "gsettings set org.cinnamon.desktop.interface icon-theme 'ubuntu-mono-dark'"
+Shell "gsettings set org.gnome.shell.overrides button-layout close,maximize,minimize:"
+Shell "gsettings set org.gnome.desktop.wm.preferences button-layout close,maximize,minimize:"
+Shell "gsettings set org.cinnamon.desktop.wm.preferences button-layout close,maximize,minimize:"
+Shell "gsettings set org.cinnamon desktop-layout 'flipped'"
+Shell "gsettings set org.cinnamon.muffin button-layout close,minimize,maximize:"
+Shell "gsettings set org.cinnamon.desktop.interface gtk-decoration-layout close,minimize,maximize:"
+Shell "killall docky"
+Shell "rm ~/.config/autostart/docky.desktop"
+
+End
+
+Public Sub Label76_MouseDown()
+
+  Shell "gsettings set org.gnome.desktop.interface gtk-theme 'Ambiance-Flat-Red'"
+  Shell "gsettings set org.gnome.desktop.wm.preferences theme 'Ambiance-Flat-Red'"
+  Shell "gsettings set org.gnome.desktop.interface icon-theme 'ubuntu-mono-dark'"
+  Shell "gsettings set org.cinnamon.theme name 'Ambiance Minty'"
+  Shell "gsettings set org.cinnamon.desktop.wm.preferences theme 'Ambiance-Flat-Red'"
+Shell "gsettings set org.cinnamon.desktop.interface gtk-theme 'Ambiance-Flat-Red'"
+Shell "gsettings set org.cinnamon.desktop.interface icon-theme 'ubuntu-mono-dark'"
+Shell "gsettings set org.gnome.shell.overrides button-layout close,maximize,minimize:"
+Shell "gsettings set org.gnome.desktop.wm.preferences button-layout close,maximize,minimize:"
+Shell "gsettings set org.cinnamon.desktop.wm.preferences button-layout close,maximize,minimize:"
+Shell "gsettings set org.cinnamon desktop-layout 'flipped'"
+Shell "gsettings set org.cinnamon.muffin button-layout close,minimize,maximize:"
+Shell "gsettings set org.cinnamon.desktop.interface gtk-decoration-layout close,minimize,maximize:"
+Shell "killall docky"
+Shell "rm ~/.config/autostart/docky.desktop"
+
+End
+
+Public Sub Label77_MouseDown()
+
+  Shell "gsettings set org.gnome.desktop.interface gtk-theme 'Ambiance-Flat-Teal'"
+  Shell "gsettings set org.gnome.desktop.wm.preferences theme 'Ambiance-Flat-Teal'"
+  Shell "gsettings set org.gnome.desktop.interface icon-theme 'ubuntu-mono-dark'"
+  Shell "gsettings set org.cinnamon.theme name 'Ambiance Minty'"
+  Shell "gsettings set org.cinnamon.desktop.wm.preferences theme 'Ambiance-Flat-Teal'"
+Shell "gsettings set org.cinnamon.desktop.interface gtk-theme 'Ambiance-Flat-Teal'"
+Shell "gsettings set org.cinnamon.desktop.interface icon-theme 'ubuntu-mono-dark'"
+Shell "gsettings set org.gnome.shell.overrides button-layout close,maximize,minimize:"
+Shell "gsettings set org.gnome.desktop.wm.preferences button-layout close,maximize,minimize:"
+Shell "gsettings set org.cinnamon.desktop.wm.preferences button-layout close,maximize,minimize:"
+Shell "gsettings set org.cinnamon desktop-layout 'flipped'"
+Shell "gsettings set org.cinnamon.muffin button-layout close,minimize,maximize:"
+Shell "gsettings set org.cinnamon.desktop.interface gtk-decoration-layout close,minimize,maximize:"
+Shell "killall docky"
+Shell "rm ~/.config/autostart/docky.desktop"
+
+End
+
+Public Sub Label78_MouseDown()
+
+  Shell "gsettings set org.gnome.desktop.interface gtk-theme 'Ambiance-Flat-Yellow'"
+  Shell "gsettings set org.gnome.desktop.wm.preferences theme 'Ambiance-Flat-Yellow'"
+  Shell "gsettings set org.gnome.desktop.interface icon-theme 'ubuntu-mono-dark'"
+  Shell "gsettings set org.cinnamon.theme name 'Ambiance Minty'"
+  Shell "gsettings set org.cinnamon.desktop.wm.preferences theme 'Ambiance-Flat-Yellow'"
+Shell "gsettings set org.cinnamon.desktop.interface gtk-theme 'Ambiance-Flat-Yellow'"
+Shell "gsettings set org.cinnamon.desktop.interface icon-theme 'ubuntu-mono-dark'"
+Shell "gsettings set org.gnome.shell.overrides button-layout close,maximize,minimize:"
+Shell "gsettings set org.gnome.desktop.wm.preferences button-layout close,maximize,minimize:"
+Shell "gsettings set org.cinnamon.desktop.wm.preferences button-layout close,maximize,minimize:"
+Shell "gsettings set org.cinnamon desktop-layout 'flipped'"
+Shell "gsettings set org.cinnamon.muffin button-layout close,minimize,maximize:"
+Shell "gsettings set org.cinnamon.desktop.interface gtk-decoration-layout close,minimize,maximize:"
+Shell "killall docky"
+Shell "rm ~/.config/autostart/docky.desktop"
+
+End
+
+Public Sub Label79_MouseDown()
+
+   Shell "gsettings set org.gnome.desktop.interface gtk-theme 'Radiance-Flat-Aqua'"
+  Shell "gsettings set org.gnome.desktop.wm.preferences theme 'Radiance-Flat-Aqua'"
+  Shell "gsettings set org.gnome.desktop.interface icon-theme 'ubuntu-mono-light'"
+  Shell "gsettings set org.cinnamon.theme name 'Ambiance Minty'"
+  Shell "gsettings set org.cinnamon.desktop.wm.preferences theme 'Radiance-Flat-Aqua'"
+Shell "gsettings set org.cinnamon.desktop.interface gtk-theme 'Radiance-Flat-Aqua'"
+Shell "gsettings set org.cinnamon.desktop.interface icon-theme 'ubuntu-mono-dark'"
+Shell "gsettings set org.gnome.shell.overrides button-layout close,maximize,minimize:"
+Shell "gsettings set org.gnome.desktop.wm.preferences button-layout close,maximize,minimize:"
+Shell "gsettings set org.cinnamon.desktop.wm.preferences button-layout close,maximize,minimize:"
+Shell "gsettings set org.cinnamon desktop-layout 'flipped'"
+Shell "gsettings set org.cinnamon.muffin button-layout close,minimize,maximize:"
+Shell "gsettings set org.cinnamon.desktop.interface gtk-decoration-layout close,minimize,maximize:"
+Shell "killall docky"
+Shell "rm ~/.config/autostart/docky.desktop"
+
+End
+
+Public Sub Label81_MouseDown()
+
+   Shell "gsettings set org.gnome.desktop.interface gtk-theme 'Radiance-Flat-Blue'"
+  Shell "gsettings set org.gnome.desktop.wm.preferences theme 'Radiance-Flat-Blue'"
+  Shell "gsettings set org.gnome.desktop.interface icon-theme 'ubuntu-mono-light'"
+  Shell "gsettings set org.cinnamon.theme name 'Ambiance Minty'"
+  Shell "gsettings set org.cinnamon.desktop.wm.preferences theme 'Radiance-Flat-Blue'"
+Shell "gsettings set org.cinnamon.desktop.interface gtk-theme 'Radiance-Flat-Blue'"
+Shell "gsettings set org.cinnamon.desktop.interface icon-theme 'ubuntu-mono-dark'"
+Shell "gsettings set org.gnome.shell.overrides button-layout close,maximize,minimize:"
+Shell "gsettings set org.gnome.desktop.wm.preferences button-layout close,maximize,minimize:"
+Shell "gsettings set org.cinnamon.desktop.wm.preferences button-layout close,maximize,minimize:"
+Shell "gsettings set org.cinnamon desktop-layout 'flipped'"
+Shell "gsettings set org.cinnamon.muffin button-layout close,minimize,maximize:"
+Shell "gsettings set org.cinnamon.desktop.interface gtk-decoration-layout close,minimize,maximize:"
+Shell "killall docky"
+Shell "rm ~/.config/autostart/docky.desktop"
+
+End
+
+Public Sub Label83_MouseDown()
+
+   Shell "gsettings set org.gnome.desktop.interface gtk-theme 'Radiance-Flat-Blue-Spring'"
+  Shell "gsettings set org.gnome.desktop.wm.preferences theme 'Radiance-Flat-Blue-Spring'"
+  Shell "gsettings set org.gnome.desktop.interface icon-theme 'ubuntu-mono-light'"
+  Shell "gsettings set org.cinnamon.theme name 'Ambiance Minty'"
+  Shell "gsettings set org.cinnamon.desktop.wm.preferences theme 'Radiance-Flat-Blue-Spring'"
+Shell "gsettings set org.cinnamon.desktop.interface gtk-theme 'Radiance-Flat-Blue-Spring'"
+Shell "gsettings set org.cinnamon.desktop.interface icon-theme 'ubuntu-mono-dark'"
+Shell "gsettings set org.gnome.shell.overrides button-layout close,maximize,minimize:"
+Shell "gsettings set org.gnome.desktop.wm.preferences button-layout close,maximize,minimize:"
+Shell "gsettings set org.cinnamon.desktop.wm.preferences button-layout close,maximize,minimize:"
+Shell "gsettings set org.cinnamon desktop-layout 'flipped'"
+Shell "gsettings set org.cinnamon.muffin button-layout close,minimize,maximize:"
+Shell "gsettings set org.cinnamon.desktop.interface gtk-decoration-layout close,minimize,maximize:"
+Shell "killall docky"
+Shell "rm ~/.config/autostart/docky.desktop"
+
+End
+
+Public Sub Label85_MouseDown()
+
+   Shell "gsettings set org.gnome.desktop.interface gtk-theme 'Radiance-Flat-Brown'"
+  Shell "gsettings set org.gnome.desktop.wm.preferences theme 'Radiance-Flat-Brown'"
+  Shell "gsettings set org.gnome.desktop.interface icon-theme 'ubuntu-mono-light'"
+  Shell "gsettings set org.cinnamon.theme name 'Ambiance Minty'"
+  Shell "gsettings set org.cinnamon.desktop.wm.preferences theme 'Radiance-Flat-Brown'"
+Shell "gsettings set org.cinnamon.desktop.interface gtk-theme 'Radiance-Flat-Brown'"
+Shell "gsettings set org.cinnamon.desktop.interface icon-theme 'ubuntu-mono-dark'"
+Shell "gsettings set org.gnome.shell.overrides button-layout close,maximize,minimize:"
+Shell "gsettings set org.gnome.desktop.wm.preferences button-layout close,maximize,minimize:"
+Shell "gsettings set org.cinnamon.desktop.wm.preferences button-layout close,maximize,minimize:"
+Shell "gsettings set org.cinnamon desktop-layout 'flipped'"
+Shell "gsettings set org.cinnamon.muffin button-layout close,minimize,maximize:"
+Shell "gsettings set org.cinnamon.desktop.interface gtk-decoration-layout close,minimize,maximize:"
+Shell "killall docky"
+Shell "rm ~/.config/autostart/docky.desktop"
+
+End
+
+Public Sub Label87_MouseDown()
+
+   Shell "gsettings set org.gnome.desktop.interface gtk-theme 'Radiance-Flat-Graphite'"
+  Shell "gsettings set org.gnome.desktop.wm.preferences theme 'Radiance-Flat-Graphite'"
+  Shell "gsettings set org.gnome.desktop.interface icon-theme 'ubuntu-mono-light'"
+  Shell "gsettings set org.cinnamon.theme name 'Ambiance Minty'"
+  Shell "gsettings set org.cinnamon.desktop.wm.preferences theme 'Radiance-Flat-Graphite'"
+Shell "gsettings set org.cinnamon.desktop.interface gtk-theme 'Radiance-Flat-Graphite'"
+Shell "gsettings set org.cinnamon.desktop.interface icon-theme 'ubuntu-mono-dark'"
+Shell "gsettings set org.gnome.shell.overrides button-layout close,maximize,minimize:"
+Shell "gsettings set org.gnome.desktop.wm.preferences button-layout close,maximize,minimize:"
+Shell "gsettings set org.cinnamon.desktop.wm.preferences button-layout close,maximize,minimize:"
+Shell "gsettings set org.cinnamon desktop-layout 'flipped'"
+Shell "gsettings set org.cinnamon.muffin button-layout close,minimize,maximize:"
+Shell "gsettings set org.cinnamon.desktop.interface gtk-decoration-layout close,minimize,maximize:"
+Shell "killall docky"
+Shell "rm ~/.config/autostart/docky.desktop"
+
+End
+
+Public Sub Label89_MouseDown()
+
+   Shell "gsettings set org.gnome.desktop.interface gtk-theme 'Radiance-Flat-Green'"
+  Shell "gsettings set org.gnome.desktop.wm.preferences theme 'Radiance-Flat-Green'"
+  Shell "gsettings set org.gnome.desktop.interface icon-theme 'ubuntu-mono-light'"
+  Shell "gsettings set org.cinnamon.theme name 'Ambiance Minty'"
+  Shell "gsettings set org.cinnamon.desktop.wm.preferences theme 'Radiance-Flat-Green'"
+Shell "gsettings set org.cinnamon.desktop.interface gtk-theme 'Radiance-Flat-Green'"
+Shell "gsettings set org.cinnamon.desktop.interface icon-theme 'ubuntu-mono-dark'"
+Shell "gsettings set org.gnome.shell.overrides button-layout close,maximize,minimize:"
+Shell "gsettings set org.gnome.desktop.wm.preferences button-layout close,maximize,minimize:"
+Shell "gsettings set org.cinnamon.desktop.wm.preferences button-layout close,maximize,minimize:"
+Shell "gsettings set org.cinnamon desktop-layout 'flipped'"
+Shell "gsettings set org.cinnamon.muffin button-layout close,minimize,maximize:"
+Shell "gsettings set org.cinnamon.desktop.interface gtk-decoration-layout close,minimize,maximize:"
+Shell "killall docky"
+Shell "rm ~/.config/autostart/docky.desktop"
+
+End
+
+Public Sub Label90_MouseDown()
+
+   Shell "gsettings set org.gnome.desktop.interface gtk-theme 'Radiance-Flat-Manila'"
+  Shell "gsettings set org.gnome.desktop.wm.preferences theme 'Radiance-Flat-Manila'"
+  Shell "gsettings set org.gnome.desktop.interface icon-theme 'ubuntu-mono-light'"
+  Shell "gsettings set org.cinnamon.theme name 'Ambiance Minty'"
+  Shell "gsettings set org.cinnamon.desktop.wm.preferences theme 'Radiance-Flat-Manila'"
+Shell "gsettings set org.cinnamon.desktop.interface gtk-theme 'Radiance-Flat-Manila'"
+Shell "gsettings set org.cinnamon.desktop.interface icon-theme 'ubuntu-mono-dark'"
+Shell "gsettings set org.gnome.shell.overrides button-layout close,maximize,minimize:"
+Shell "gsettings set org.gnome.desktop.wm.preferences button-layout close,maximize,minimize:"
+Shell "gsettings set org.cinnamon.desktop.wm.preferences button-layout close,maximize,minimize:"
+Shell "gsettings set org.cinnamon desktop-layout 'flipped'"
+Shell "gsettings set org.cinnamon.muffin button-layout close,minimize,maximize:"
+Shell "gsettings set org.cinnamon.desktop.interface gtk-decoration-layout close,minimize,maximize:"
+Shell "killall docky"
+Shell "rm ~/.config/autostart/docky.desktop"
+
+End
+
+Public Sub Label91_MouseDown()
+
+   Shell "gsettings set org.gnome.desktop.interface gtk-theme 'Radiance-Flat-Orange'"
+  Shell "gsettings set org.gnome.desktop.wm.preferences theme 'Radiance-Flat-Orange'"
+  Shell "gsettings set org.gnome.desktop.interface icon-theme 'ubuntu-mono-light'"
+  Shell "gsettings set org.cinnamon.theme name 'Ambiance Minty'"
+  Shell "gsettings set org.cinnamon.desktop.wm.preferences theme 'Radiance-Flat-Orange'"
+Shell "gsettings set org.cinnamon.desktop.interface gtk-theme 'Radiance-Flat-Orange'"
+Shell "gsettings set org.cinnamon.desktop.interface icon-theme 'ubuntu-mono-dark'"
+Shell "gsettings set org.gnome.shell.overrides button-layout close,maximize,minimize:"
+Shell "gsettings set org.gnome.desktop.wm.preferences button-layout close,maximize,minimize:"
+Shell "gsettings set org.cinnamon.desktop.wm.preferences button-layout close,maximize,minimize:"
+Shell "gsettings set org.cinnamon desktop-layout 'flipped'"
+Shell "gsettings set org.cinnamon.muffin button-layout close,minimize,maximize:"
+Shell "gsettings set org.cinnamon.desktop.interface gtk-decoration-layout close,minimize,maximize:"
+Shell "killall docky"
+Shell "rm ~/.config/autostart/docky.desktop"
+
+End
+
+Public Sub Label80_MouseDown()
+
+   Shell "gsettings set org.gnome.desktop.interface gtk-theme 'Radiance-Flat-Pink'"
+  Shell "gsettings set org.gnome.desktop.wm.preferences theme 'Radiance-Flat-Pink'"
+  Shell "gsettings set org.gnome.desktop.interface icon-theme 'ubuntu-mono-light'"
+  Shell "gsettings set org.cinnamon.theme name 'Ambiance Minty'"
+  Shell "gsettings set org.cinnamon.desktop.wm.preferences theme 'Radiance-Flat-Pink'"
+Shell "gsettings set org.cinnamon.desktop.interface gtk-theme 'Radiance-Flat-Pink'"
+Shell "gsettings set org.cinnamon.desktop.interface icon-theme 'ubuntu-mono-dark'"
+Shell "gsettings set org.gnome.shell.overrides button-layout close,maximize,minimize:"
+Shell "gsettings set org.gnome.desktop.wm.preferences button-layout close,maximize,minimize:"
+Shell "gsettings set org.cinnamon.desktop.wm.preferences button-layout close,maximize,minimize:"
+Shell "gsettings set org.cinnamon desktop-layout 'flipped'"
+Shell "gsettings set org.cinnamon.muffin button-layout close,minimize,maximize:"
+Shell "gsettings set org.cinnamon.desktop.interface gtk-decoration-layout close,minimize,maximize:"
+Shell "killall docky"
+Shell "rm ~/.config/autostart/docky.desktop"
+
+End
+
+Public Sub Label82_MouseDown()
+
+   Shell "gsettings set org.gnome.desktop.interface gtk-theme 'Radiance-Flat-Purple'"
+  Shell "gsettings set org.gnome.desktop.wm.preferences theme 'Radiance-Flat-Purple'"
+  Shell "gsettings set org.gnome.desktop.interface icon-theme 'ubuntu-mono-light'"
+  Shell "gsettings set org.cinnamon.theme name 'Ambiance Minty'"
+  Shell "gsettings set org.cinnamon.desktop.wm.preferences theme 'Radiance-Flat-Purple'"
+Shell "gsettings set org.cinnamon.desktop.interface gtk-theme 'Radiance-Flat-Purple'"
+Shell "gsettings set org.cinnamon.desktop.interface icon-theme 'ubuntu-mono-dark'"
+Shell "gsettings set org.gnome.shell.overrides button-layout close,maximize,minimize:"
+Shell "gsettings set org.gnome.desktop.wm.preferences button-layout close,maximize,minimize:"
+Shell "gsettings set org.cinnamon.desktop.wm.preferences button-layout close,maximize,minimize:"
+Shell "gsettings set org.cinnamon desktop-layout 'flipped'"
+Shell "gsettings set org.cinnamon.muffin button-layout close,minimize,maximize:"
+Shell "gsettings set org.cinnamon.desktop.interface gtk-decoration-layout close,minimize,maximize:"
+Shell "killall docky"
+Shell "rm ~/.config/autostart/docky.desktop"
+
+End
+
+Public Sub Label84_MouseDown()
+
+   Shell "gsettings set org.gnome.desktop.interface gtk-theme 'Radiance-Flat-Red'"
+  Shell "gsettings set org.gnome.desktop.wm.preferences theme 'Radiance-Flat-Red'"
+  Shell "gsettings set org.gnome.desktop.interface icon-theme 'ubuntu-mono-light'"
+  Shell "gsettings set org.cinnamon.theme name 'Ambiance Minty'"
+  Shell "gsettings set org.cinnamon.desktop.wm.preferences theme 'Radiance-Flat-Red'"
+Shell "gsettings set org.cinnamon.desktop.interface gtk-theme 'Radiance-Flat-Red'"
+Shell "gsettings set org.cinnamon.desktop.interface icon-theme 'ubuntu-mono-dark'"
+Shell "gsettings set org.gnome.shell.overrides button-layout close,maximize,minimize:"
+Shell "gsettings set org.gnome.desktop.wm.preferences button-layout close,maximize,minimize:"
+Shell "gsettings set org.cinnamon.desktop.wm.preferences button-layout close,maximize,minimize:"
+Shell "gsettings set org.cinnamon desktop-layout 'flipped'"
+Shell "gsettings set org.cinnamon.muffin button-layout close,minimize,maximize:"
+Shell "gsettings set org.cinnamon.desktop.interface gtk-decoration-layout close,minimize,maximize:"
+Shell "killall docky"
+Shell "rm ~/.config/autostart/docky.desktop"
+
+End
+
+Public Sub Label86_MouseDown()
+
+   Shell "gsettings set org.gnome.desktop.interface gtk-theme 'Radiance-Flat-Teal'"
+  Shell "gsettings set org.gnome.desktop.wm.preferences theme 'Radiance-Flat-Teal'"
+  Shell "gsettings set org.gnome.desktop.interface icon-theme 'ubuntu-mono-light'"
+  Shell "gsettings set org.cinnamon.theme name 'Ambiance Minty'"
+  Shell "gsettings set org.cinnamon.desktop.wm.preferences theme 'Radiance-Flat-Teal'"
+Shell "gsettings set org.cinnamon.desktop.interface gtk-theme 'Radiance-Flat-Teal'"
+Shell "gsettings set org.cinnamon.desktop.interface icon-theme 'ubuntu-mono-dark'"
+Shell "gsettings set org.gnome.shell.overrides button-layout close,maximize,minimize:"
+Shell "gsettings set org.gnome.desktop.wm.preferences button-layout close,maximize,minimize:"
+Shell "gsettings set org.cinnamon.desktop.wm.preferences button-layout close,maximize,minimize:"
+Shell "gsettings set org.cinnamon desktop-layout 'flipped'"
+Shell "gsettings set org.cinnamon.muffin button-layout close,minimize,maximize:"
+Shell "gsettings set org.cinnamon.desktop.interface gtk-decoration-layout close,minimize,maximize:"
+Shell "killall docky"
+Shell "rm ~/.config/autostart/docky.desktop"
+
+End
+
+Public Sub Label88_MouseDown()
+
+   Shell "gsettings set org.gnome.desktop.interface gtk-theme 'Radiance-Flat-Yellow'"
+  Shell "gsettings set org.gnome.desktop.wm.preferences theme 'Radiance-Flat-Yellow'"
+  Shell "gsettings set org.gnome.desktop.interface icon-theme 'ubuntu-mono-light'"
+  Shell "gsettings set org.cinnamon.theme name 'Ambiance Minty'"
+  Shell "gsettings set org.cinnamon.desktop.wm.preferences theme 'Radiance-Flat-Yellow'"
+Shell "gsettings set org.cinnamon.desktop.interface gtk-theme 'Radiance-Flat-Yellow'"
+Shell "gsettings set org.cinnamon.desktop.interface icon-theme 'ubuntu-mono-dark'"
+Shell "gsettings set org.gnome.shell.overrides button-layout close,maximize,minimize:"
+Shell "gsettings set org.gnome.desktop.wm.preferences button-layout close,maximize,minimize:"
+Shell "gsettings set org.cinnamon.desktop.wm.preferences button-layout close,maximize,minimize:"
+Shell "gsettings set org.cinnamon desktop-layout 'flipped'"
+Shell "gsettings set org.cinnamon.muffin button-layout close,minimize,maximize:"
+Shell "gsettings set org.cinnamon.desktop.interface gtk-decoration-layout close,minimize,maximize:"
+Shell "killall docky"
+Shell "rm ~/.config/autostart/docky.desktop"
+
+End
+
+Public Sub Label13_MouseDown()
+
+   Win8Themes.Visible = False
+   Win7Themes.Visible = False
+   Winxpthemes.visible = False
+   win2kthemes.visible = False
+   macosxthemes.visible = False
+   ubuntuthemes.visible = False
+   ferenthemes.visible = True
+   numixthemes.visible = False
+    linuxmintthemes.visible = False
+    ozonthemes.visible = False
+    FlatthemesThemes.visible = False
+    Win10themesthemes.visible = False
+    Hide_8Colours
+
+End
+
+Public Sub Button10_Click()
+
+  Shell "gsettings set org.gnome.desktop.interface gtk-theme 'Numix'"
+  Shell "gsettings set org.gnome.desktop.wm.preferences theme 'Numix'"
+  Shell "gsettings set org.gnome.desktop.interface icon-theme 'Numix-Circle'"
+  Shell "gsettings set org.cinnamon.theme name 'Numix-Cinnamon'"
+  Shell "gsettings set org.cinnamon.desktop.wm.preferences theme 'Numix'"
+Shell "gsettings set org.cinnamon.desktop.interface gtk-theme 'Numix'"
+Shell "gsettings set org.cinnamon.desktop.interface icon-theme 'Numix-Circle'"
+Shell "gsettings set org.gnome.shell.overrides button-layout :minimize,maximize,close"
+Shell "gsettings set org.gnome.desktop.wm.preferences button-layout :minimize,maximize,close"
+Shell "gsettings set org.cinnamon.desktop.wm.preferences button-layout :minimize,maximize,close"
+Shell "gsettings set org.cinnamon.muffin button-layout :minimize,maximize,close"
+Shell "gsettings set org.cinnamon.desktop.interface gtk-decoration-layout :minimize,maximize,close"
+Shell "killall docky"
+Shell "rm ~/.config/autostart/docky.desktop"
+Shell "gsettings set org.cinnamon desktop-layout 'traditional'"
+
+End
+
+Public Sub Button11_Click()
+
+  Shell "gsettings set org.gnome.desktop.interface gtk-theme 'Mint-X'"
+  Shell "gsettings set org.gnome.desktop.wm.preferences theme 'Mint-X'"
+  Shell "gsettings set org.gnome.desktop.interface icon-theme 'Mint-X'"
+  Shell "gsettings set org.cinnamon.theme name 'Linux Mint'"
+  Shell "gsettings set org.cinnamon.desktop.wm.preferences theme 'Mint-X'"
+Shell "gsettings set org.cinnamon.desktop.interface gtk-theme 'Mint-X'"
+Shell "gsettings set org.cinnamon.desktop.interface icon-theme 'Mint-X'"
+Shell "gsettings set org.gnome.shell.overrides button-layout :minimize,maximize,close"
+Shell "gsettings set org.gnome.desktop.wm.preferences button-layout :minimize,maximize,close"
+Shell "gsettings set org.cinnamon.desktop.wm.preferences button-layout :minimize,maximize,close"
+Shell "gsettings set org.cinnamon.muffin button-layout :minimize,maximize,close"
+Shell "gsettings set org.cinnamon.desktop.interface gtk-decoration-layout :minimize,maximize,close"
+Shell "killall docky"
+Shell "rm ~/.config/autostart/docky.desktop"
+Shell "gsettings set org.cinnamon desktop-layout 'traditional'"
+Shell "gsettings set org.cinnamon enabled-applets '['panel1:left:0:menu@cinnamon.org', 'panel1:left:1:show-desktop@cinnamon.org', 'panel1:left:2:panel-launchers@cinnamon.org', 'panel1:left:3:window-list@cinnamon.org', 'panel1:right:0:notifications@cinnamon.org', 'panel1:right:1:user@cinnamon.org', 'panel1:right:2:removable-drives@cinnamon.org', 'panel1:right:3:keyboard@cinnamon.org', 'panel1:right:4:bluetooth@cinnamon.org', 'panel1:right:5:network@cinnamon.org', 'panel1:right:6:sound@cinnamon.org', 'panel1:right:7:power@cinnamon.org', 'panel1:right:8:systray@cinnamon.org', 'panel1:right:9:calendar@cinnamon.org', 'panel1:right:10:windows-quick-list@cinnamon.org']'"
+
+End
+
+Public Sub Button12_Click()
+
+  Shell "gsettings set org.gnome.desktop.interface gtk-theme 'Numix Frost'"
+  Shell "gsettings set org.gnome.desktop.wm.preferences theme 'Numix Frost'"
+  Shell "gsettings set org.gnome.desktop.interface icon-theme 'Numix-Circle'"
+  Shell "gsettings set org.cinnamon.theme name 'Numix Frost'"
+  Shell "gsettings set org.cinnamon.desktop.wm.preferences theme 'Numix Frost'"
+Shell "gsettings set org.cinnamon.desktop.interface gtk-theme 'Numix Frost'"
+Shell "gsettings set org.cinnamon.desktop.interface icon-theme 'Numix-Circle'"
+Shell "gsettings set org.gnome.shell.overrides button-layout :minimize,maximize,close"
+Shell "gsettings set org.gnome.desktop.wm.preferences button-layout :minimize,maximize,close"
+Shell "gsettings set org.cinnamon.desktop.wm.preferences button-layout :minimize,maximize,close"
+Shell "gsettings set org.cinnamon.muffin button-layout :minimize,maximize,close"
+Shell "gsettings set org.cinnamon.desktop.interface gtk-decoration-layout :minimize,maximize,close"
+Shell "killall docky"
+Shell "rm ~/.config/autostart/docky.desktop"
+Shell "gsettings set org.cinnamon desktop-layout 'traditional'"
+
+End
+
+Public Sub Label10_MouseDown()
+
+   Win8Themes.Visible = False
+   Win7Themes.Visible = False
+   Winxpthemes.visible = False
+   win2kthemes.visible = False
+   macosxthemes.visible = False
+   ubuntuthemes.visible = False
+   ferenthemes.visible = False
+   numixthemes.visible = True
+   linuxmintthemes.visible = False
+   ozonthemes.visible = False
+   FlatthemesThemes.visible = False
+   Win10themesthemes.visible = False
+   Hide_8Colours
+
+End
+
+Public Sub Button13_Click()
+
+  Shell "gsettings set org.gnome.desktop.interface gtk-theme 'Mint-X'"
+  Shell "gsettings set org.gnome.desktop.wm.preferences theme 'Mint-X'"
+  Shell "gsettings set org.gnome.desktop.interface icon-theme 'Mint-X'"
+  Shell "gsettings set org.cinnamon.theme name 'Mint-X'"
+  Shell "gsettings set org.cinnamon.desktop.wm.preferences theme 'Mint-X'"
+Shell "gsettings set org.cinnamon.desktop.interface gtk-theme 'Mint-X'"
+Shell "gsettings set org.cinnamon.desktop.interface icon-theme 'Mint-X'"
+Shell "gsettings set org.gnome.shell.overrides button-layout :minimize,maximize,close"
+Shell "gsettings set org.gnome.desktop.wm.preferences button-layout :minimize,maximize,close"
+Shell "gsettings set org.cinnamon.desktop.wm.preferences button-layout :minimize,maximize,close"
+Shell "gsettings set org.cinnamon.muffin button-layout :minimize,maximize,close"
+Shell "gsettings set org.cinnamon.desktop.interface gtk-decoration-layout :minimize,maximize,close"
+Shell "killall docky"
+Shell "rm ~/.config/autostart/docky.desktop"
+Shell "gsettings set org.cinnamon desktop-layout 'traditional'"
+Shell "gsettings set org.cinnamon enabled-applets '['panel1:left:0:menu@cinnamon.org', 'panel1:left:1:show-desktop@cinnamon.org', 'panel1:left:2:panel-launchers@cinnamon.org', 'panel1:left:3:window-list@cinnamon.org', 'panel1:right:0:notifications@cinnamon.org', 'panel1:right:1:user@cinnamon.org', 'panel1:right:2:removable-drives@cinnamon.org', 'panel1:right:3:keyboard@cinnamon.org', 'panel1:right:4:bluetooth@cinnamon.org', 'panel1:right:5:network@cinnamon.org', 'panel1:right:6:sound@cinnamon.org', 'panel1:right:7:power@cinnamon.org', 'panel1:right:8:systray@cinnamon.org', 'panel1:right:9:calendar@cinnamon.org', 'panel1:right:10:windows-quick-list@cinnamon.org']'"
+
+End
+
+Public Sub Label14_MouseDown()
+
+  Win8Themes.Visible = False
+   Win7Themes.Visible = False
+   Winxpthemes.visible = False
+   win2kthemes.visible = False
+   macosxthemes.visible = False
+   ubuntuthemes.visible = False
+   ferenthemes.visible = False
+   numixthemes.visible = False
+   linuxmintthemes.visible = True
+   ozonthemes.visible = False
+   FlatthemesThemes.visible = False
+   Win10themesthemes.visible = False
+   Hide_8Colours
+
+End
+
+Public Sub Button14_Click()
+
+  Shell "gsettings set org.gnome.desktop.interface gtk-theme 'Mint-X-Blue'"
+  Shell "gsettings set org.gnome.desktop.wm.preferences theme 'Mint-X-Blue'"
+  Shell "gsettings set org.gnome.desktop.interface icon-theme 'Mint-X-Blue'"
+  Shell "gsettings set org.cinnamon.theme name 'Mint-X-Blue'"
+  Shell "gsettings set org.cinnamon.desktop.wm.preferences theme 'Mint-X-Blue'"
+Shell "gsettings set org.cinnamon.desktop.interface gtk-theme 'Mint-X-Blue'"
+Shell "gsettings set org.cinnamon.desktop.interface icon-theme 'Mint-X-Blue'"
+Shell "gsettings set org.gnome.shell.overrides button-layout :minimize,maximize,close"
+Shell "gsettings set org.gnome.desktop.wm.preferences button-layout :minimize,maximize,close"
+Shell "gsettings set org.cinnamon.desktop.wm.preferences button-layout :minimize,maximize,close"
+Shell "gsettings set org.cinnamon.muffin button-layout :minimize,maximize,close"
+Shell "gsettings set org.cinnamon.desktop.interface gtk-decoration-layout :minimize,maximize,close"
+Shell "killall docky"
+Shell "rm ~/.config/autostart/docky.desktop"
+Shell "gsettings set org.cinnamon desktop-layout 'traditional'"
+Shell "gsettings set org.cinnamon enabled-applets '['panel1:left:0:menu@cinnamon.org', 'panel1:left:1:show-desktop@cinnamon.org', 'panel1:left:2:panel-launchers@cinnamon.org', 'panel1:left:3:window-list@cinnamon.org', 'panel1:right:0:notifications@cinnamon.org', 'panel1:right:1:user@cinnamon.org', 'panel1:right:2:removable-drives@cinnamon.org', 'panel1:right:3:keyboard@cinnamon.org', 'panel1:right:4:bluetooth@cinnamon.org', 'panel1:right:5:network@cinnamon.org', 'panel1:right:6:sound@cinnamon.org', 'panel1:right:7:power@cinnamon.org', 'panel1:right:8:systray@cinnamon.org', 'panel1:right:9:calendar@cinnamon.org', 'panel1:right:10:windows-quick-list@cinnamon.org']'"
+
+End
+
+Public Sub Button15_Click()
+
+   Shell "gsettings set org.gnome.desktop.interface gtk-theme 'Mint-X-Aqua'"
+  Shell "gsettings set org.gnome.desktop.wm.preferences theme 'Mint-X-Aqua'"
+  Shell "gsettings set org.gnome.desktop.interface icon-theme 'Mint-X-Aqua'"
+  Shell "gsettings set org.cinnamon.theme name 'Mint-X-Aqua'"
+  Shell "gsettings set org.cinnamon.desktop.wm.preferences theme 'Mint-X-Aqua'"
+Shell "gsettings set org.cinnamon.desktop.interface gtk-theme 'Mint-X-Aqua'"
+Shell "gsettings set org.cinnamon.desktop.interface icon-theme 'Mint-X-Aqua'"
+Shell "gsettings set org.gnome.shell.overrides button-layout :minimize,maximize,close"
+Shell "gsettings set org.gnome.desktop.wm.preferences button-layout :minimize,maximize,close"
+Shell "gsettings set org.cinnamon.desktop.wm.preferences button-layout :minimize,maximize,close"
+Shell "gsettings set org.cinnamon.muffin button-layout :minimize,maximize,close"
+Shell "gsettings set org.cinnamon.desktop.interface gtk-decoration-layout :minimize,maximize,close"
+Shell "killall docky"
+Shell "rm ~/.config/autostart/docky.desktop"
+Shell "gsettings set org.cinnamon desktop-layout 'traditional'"
+Shell "gsettings set org.cinnamon enabled-applets '['panel1:left:0:menu@cinnamon.org', 'panel1:left:1:show-desktop@cinnamon.org', 'panel1:left:2:panel-launchers@cinnamon.org', 'panel1:left:3:window-list@cinnamon.org', 'panel1:right:0:notifications@cinnamon.org', 'panel1:right:1:user@cinnamon.org', 'panel1:right:2:removable-drives@cinnamon.org', 'panel1:right:3:keyboard@cinnamon.org', 'panel1:right:4:bluetooth@cinnamon.org', 'panel1:right:5:network@cinnamon.org', 'panel1:right:6:sound@cinnamon.org', 'panel1:right:7:power@cinnamon.org', 'panel1:right:8:systray@cinnamon.org', 'panel1:right:9:calendar@cinnamon.org', 'panel1:right:10:windows-quick-list@cinnamon.org']'"
+
+End
+
+Public Sub Button16_Click()
+
+   Shell "gsettings set org.gnome.desktop.interface gtk-theme 'Mint-X-Orange'"
+  Shell "gsettings set org.gnome.desktop.wm.preferences theme 'Mint-X-Orange'"
+  Shell "gsettings set org.gnome.desktop.interface icon-theme 'Mint-X-Orange'"
+  Shell "gsettings set org.cinnamon.theme name 'Mint-X-Orange'"
+  Shell "gsettings set org.cinnamon.desktop.wm.preferences theme 'Mint-X-Orange'"
+Shell "gsettings set org.cinnamon.desktop.interface gtk-theme 'Mint-X-Orange'"
+Shell "gsettings set org.cinnamon.desktop.interface icon-theme 'Mint-X-Orange'"
+Shell "gsettings set org.gnome.shell.overrides button-layout :minimize,maximize,close"
+Shell "gsettings set org.gnome.desktop.wm.preferences button-layout :minimize,maximize,close"
+Shell "gsettings set org.cinnamon.desktop.wm.preferences button-layout :minimize,maximize,close"
+Shell "gsettings set org.cinnamon.muffin button-layout :minimize,maximize,close"
+Shell "gsettings set org.cinnamon.desktop.interface gtk-decoration-layout :minimize,maximize,close"
+Shell "killall docky"
+Shell "rm ~/.config/autostart/docky.desktop"
+Shell "gsettings set org.cinnamon desktop-layout 'traditional'"
+Shell "gsettings set org.cinnamon enabled-applets '['panel1:left:0:menu@cinnamon.org', 'panel1:left:1:show-desktop@cinnamon.org', 'panel1:left:2:panel-launchers@cinnamon.org', 'panel1:left:3:window-list@cinnamon.org', 'panel1:right:0:notifications@cinnamon.org', 'panel1:right:1:user@cinnamon.org', 'panel1:right:2:removable-drives@cinnamon.org', 'panel1:right:3:keyboard@cinnamon.org', 'panel1:right:4:bluetooth@cinnamon.org', 'panel1:right:5:network@cinnamon.org', 'panel1:right:6:sound@cinnamon.org', 'panel1:right:7:power@cinnamon.org', 'panel1:right:8:systray@cinnamon.org', 'panel1:right:9:calendar@cinnamon.org', 'panel1:right:10:windows-quick-list@cinnamon.org']'"
+
+End
+
+Public Sub Button17_Click()
+
+   Shell "gsettings set org.gnome.desktop.interface gtk-theme 'Mint-X-Pink'"
+  Shell "gsettings set org.gnome.desktop.wm.preferences theme 'Mint-X-Pink'"
+  Shell "gsettings set org.gnome.desktop.interface icon-theme 'Mint-X-Pink'"
+  Shell "gsettings set org.cinnamon.theme name 'Mint-X-Pink'"
+  Shell "gsettings set org.cinnamon.desktop.wm.preferences theme 'Mint-X-Pink'"
+Shell "gsettings set org.cinnamon.desktop.interface gtk-theme 'Mint-X-Pink'"
+Shell "gsettings set org.cinnamon.desktop.interface icon-theme 'Mint-X-Pink'"
+Shell "gsettings set org.gnome.shell.overrides button-layout :minimize,maximize,close"
+Shell "gsettings set org.gnome.desktop.wm.preferences button-layout :minimize,maximize,close"
+Shell "gsettings set org.cinnamon.muffin button-layout :minimize,maximize,close"
+Shell "gsettings set org.cinnamon.desktop.interface gtk-decoration-layout :minimize,maximize,close"
+Shell "killall docky"
+Shell "rm ~/.config/autostart/docky.desktop"
+Shell "gsettings set org.cinnamon desktop-layout 'traditional'"
+Shell "gsettings set org.cinnamon enabled-applets '['panel1:left:0:menu@cinnamon.org', 'panel1:left:1:show-desktop@cinnamon.org', 'panel1:left:2:panel-launchers@cinnamon.org', 'panel1:left:3:window-list@cinnamon.org', 'panel1:right:0:notifications@cinnamon.org', 'panel1:right:1:user@cinnamon.org', 'panel1:right:2:removable-drives@cinnamon.org', 'panel1:right:3:keyboard@cinnamon.org', 'panel1:right:4:bluetooth@cinnamon.org', 'panel1:right:5:network@cinnamon.org', 'panel1:right:6:sound@cinnamon.org', 'panel1:right:7:power@cinnamon.org', 'panel1:right:8:systray@cinnamon.org', 'panel1:right:9:calendar@cinnamon.org', 'panel1:right:10:windows-quick-list@cinnamon.org']'"
+
+End
+
+Public Sub Button18_Click()
+
+   Shell "gsettings set org.gnome.desktop.interface gtk-theme 'Mint-X-Purple'"
+  Shell "gsettings set org.gnome.desktop.wm.preferences theme 'Mint-X-Purple'"
+  Shell "gsettings set org.gnome.desktop.interface icon-theme 'Mint-X-Purple'"
+  Shell "gsettings set org.cinnamon.theme name 'Mint-X-Purple'"
+  Shell "gsettings set org.cinnamon.desktop.wm.preferences theme 'Mint-X-Purple'"
+Shell "gsettings set org.cinnamon.desktop.interface gtk-theme 'Mint-X-Purple'"
+Shell "gsettings set org.cinnamon.desktop.interface icon-theme 'Mint-X-Purple'"
+Shell "gsettings set org.gnome.shell.overrides button-layout :minimize,maximize,close"
+Shell "gsettings set org.gnome.desktop.wm.preferences button-layout :minimize,maximize,close"
+Shell "gsettings set org.cinnamon.muffin button-layout :minimize,maximize,close"
+Shell "gsettings set org.cinnamon.desktop.interface gtk-decoration-layout :minimize,maximize,close"
+Shell "killall docky"
+Shell "rm ~/.config/autostart/docky.desktop"
+Shell "gsettings set org.cinnamon desktop-layout 'traditional'"
+Shell "gsettings set org.cinnamon enabled-applets '['panel1:left:0:menu@cinnamon.org', 'panel1:left:1:show-desktop@cinnamon.org', 'panel1:left:2:panel-launchers@cinnamon.org', 'panel1:left:3:window-list@cinnamon.org', 'panel1:right:0:notifications@cinnamon.org', 'panel1:right:1:user@cinnamon.org', 'panel1:right:2:removable-drives@cinnamon.org', 'panel1:right:3:keyboard@cinnamon.org', 'panel1:right:4:bluetooth@cinnamon.org', 'panel1:right:5:network@cinnamon.org', 'panel1:right:6:sound@cinnamon.org', 'panel1:right:7:power@cinnamon.org', 'panel1:right:8:systray@cinnamon.org', 'panel1:right:9:calendar@cinnamon.org', 'panel1:right:10:windows-quick-list@cinnamon.org']'"
+
+End
+
+Public Sub Button19_Click()
+
+   Shell "gsettings set org.gnome.desktop.interface gtk-theme 'Mint-X-Red'"
+  Shell "gsettings set org.gnome.desktop.wm.preferences theme 'Mint-X-Red'"
+  Shell "gsettings set org.gnome.desktop.interface icon-theme 'Mint-X-Red'"
+  Shell "gsettings set org.cinnamon.theme name 'Mint-X-Red'"
+  Shell "gsettings set org.cinnamon.desktop.wm.preferences theme 'Mint-X-Red'"
+Shell "gsettings set org.cinnamon.desktop.interface gtk-theme 'Mint-X-Red'"
+Shell "gsettings set org.cinnamon.desktop.interface icon-theme 'Mint-X-Red'"
+Shell "gsettings set org.gnome.shell.overrides button-layout :minimize,maximize,close"
+Shell "gsettings set org.gnome.desktop.wm.preferences button-layout :minimize,maximize,close"
+Shell "gsettings set org.cinnamon.desktop.overrides button-layout :minimize,maximize,close"
+Shell "gsettings set org.cinnamon.muffin button-layout :minimize,maximize,close"
+Shell "gsettings set org.cinnamon.desktop.interface gtk-decoration-layout :minimize,maximize,close"
+Shell "killall docky"
+Shell "rm ~/.config/autostart/docky.desktop"
+Shell "gsettings set org.cinnamon desktop-layout 'traditional'"
+Shell "gsettings set org.cinnamon enabled-applets '['panel1:left:0:menu@cinnamon.org', 'panel1:left:1:show-desktop@cinnamon.org', 'panel1:left:2:panel-launchers@cinnamon.org', 'panel1:left:3:window-list@cinnamon.org', 'panel1:right:0:notifications@cinnamon.org', 'panel1:right:1:user@cinnamon.org', 'panel1:right:2:removable-drives@cinnamon.org', 'panel1:right:3:keyboard@cinnamon.org', 'panel1:right:4:bluetooth@cinnamon.org', 'panel1:right:5:network@cinnamon.org', 'panel1:right:6:sound@cinnamon.org', 'panel1:right:7:power@cinnamon.org', 'panel1:right:8:systray@cinnamon.org', 'panel1:right:9:calendar@cinnamon.org', 'panel1:right:10:windows-quick-list@cinnamon.org']'"
+
+End
+
+Public Sub Button20_Click()
+
+   Shell "gsettings set org.gnome.desktop.interface gtk-theme 'Mint-X-Sand'"
+  Shell "gsettings set org.gnome.desktop.wm.preferences theme 'Mint-X-Sand'"
+  Shell "gsettings set org.gnome.desktop.interface icon-theme 'Mint-X-Sand'"
+  Shell "gsettings set org.cinnamon.theme name 'Mint-X-Sand'"
+  Shell "gsettings set org.cinnamon.desktop.wm.preferences theme 'Mint-X-Sand'"
+Shell "gsettings set org.cinnamon.desktop.interface gtk-theme 'Mint-X-Sand'"
+Shell "gsettings set org.cinnamon.desktop.interface icon-theme 'Mint-X-Sand'"
+Shell "gsettings set org.gnome.shell.overrides button-layout :minimize,maximize,close"
+Shell "gsettings set org.gnome.desktop.wm.preferences button-layout :minimize,maximize,close"
+Shell "gsettings set org.cinnamon.desktop.overrides button-layout :minimize,maximize,close"
+Shell "gsettings set org.cinnamon.muffin button-layout :minimize,maximize,close"
+Shell "gsettings set org.cinnamon.desktop.interface gtk-decoration-layout :minimize,maximize,close"
+Shell "killall docky"
+Shell "rm ~/.config/autostart/docky.desktop"
+Shell "gsettings set org.cinnamon desktop-layout 'traditional'"
+Shell "gsettings set org.cinnamon enabled-applets '['panel1:left:0:menu@cinnamon.org', 'panel1:left:1:show-desktop@cinnamon.org', 'panel1:left:2:panel-launchers@cinnamon.org', 'panel1:left:3:window-list@cinnamon.org', 'panel1:right:0:notifications@cinnamon.org', 'panel1:right:1:user@cinnamon.org', 'panel1:right:2:removable-drives@cinnamon.org', 'panel1:right:3:keyboard@cinnamon.org', 'panel1:right:4:bluetooth@cinnamon.org', 'panel1:right:5:network@cinnamon.org', 'panel1:right:6:sound@cinnamon.org', 'panel1:right:7:power@cinnamon.org', 'panel1:right:8:systray@cinnamon.org', 'panel1:right:9:calendar@cinnamon.org', 'panel1:right:10:windows-quick-list@cinnamon.org']'"
+
+End
+
+Public Sub Button21_Click()
+
+  Shell "gsettings set org.gnome.desktop.interface gtk-theme 'ozon-gtk'"
+  Shell "gsettings set org.gnome.desktop.wm.preferences theme 'ozon-gtk'"
+  Shell "gsettings set org.gnome.desktop.interface icon-theme 'Ozon'"  
+  Shell "gsettings set org.cinnamon.theme name 'Numix-Cinnamon'"
+  Shell "gsettings set org.cinnamon.desktop.wm.preferences theme 'ozon-gtk'"
+Shell "gsettings set org.cinnamon.desktop.interface gtk-theme 'ozon-gtk'"
+Shell "gsettings set org.cinnamon.desktop.interface icon-theme 'Ozon'"
+Shell "gsettings set org.gnome.shell.overrides button-layout :minimize,maximize,close"
+Shell "gsettings set org.gnome.desktop.wm.preferences button-layout :minimize,maximize,close"
+Shell "gsettings set org.cinnamon.desktop.overrides button-layout :minimize,maximize,close"
+Shell "killall docky"
+Shell "rm ~/.config/autostart/docky.desktop"
+Shell "gsettings set org.cinnamon desktop-layout 'traditional'"
+
+End
+
+Public Sub Label11_MouseDown()
+
+  Win8Themes.Visible = False
+   Win7Themes.Visible = False
+   Winxpthemes.visible = False
+   win2kthemes.visible = False
+   macosxthemes.visible = False
+   ubuntuthemes.visible = False
+   ferenthemes.visible = False
+   numixthemes.visible = False
+   linuxmintthemes.visible = False
+   ozonthemes.visible = True
+   FlatthemesThemes.visible = False
+   Win10themesthemes.visible = False
+   Hide_8Colours
+
+End
+
+Public Sub Label17_MouseDown()
+
+  
+
+End
+
+Public Sub Label29_MouseDown()
+
+  
+
+End
+
+Public Sub Label25_MouseDown()
+
+  
+
+End
+
+Public Sub Label27_MouseDown()
+
+  
+
+End
+
+Public Sub Label31_MouseDown()
+
+  
+
+End
+
+Public Sub Button22_Click()
+
+  Shell "gsettings set org.gnome.desktop.interface gtk-theme 'Windows Classic'"
+  Shell "gsettings set org.gnome.desktop.wm.preferences theme 'GNOME For Workgroups'"
+  Shell "gsettings set org.gnome.desktop.interface icon-theme 'Classic95'"
+  Shell "gsettings set org.cinnamon.theme name 'Completly Transparent'"
+  Shell "gsettings set org.cinnamon.desktop.wm.preferences theme 'GNOME For Workgroups'"
+  Shell "gsettings set org.cinnamon.desktop.interface gtk-theme 'Windows Classic'"
+Shell "gsettings set org.cinnamon.desktop.interface icon-theme 'Classic95'"
+Shell "gsettings set org.gnome.shell.overrides button-layout menu:maximize,minimize"
+Shell "gsettings set org.gnome.desktop.wm.preferences button-layout menu:maximize,minimize"
+Shell "gsettings set org.cinnamon.desktop.overrides button-layout menu:maximize,minimize"
+Shell "gsettings set org.cinnamon.muffin button-layout menu:maximize,minimize"
+Shell "gsettings set org.cinnamon.desktop.interface gtk-decoration-layout menu:maximize,minimize"
+Shell "killall docky"
+Shell "rm ~/.config/autostart/docky.desktop"
+Shell "gsettings set org.cinnamon desktop-layout 'traditional'"
+
+End
+
+Public Sub win2kThemes_MouseDown()
+
+  
+
+End
+
+Public Sub Button7_Click()
+
+  Shell "gsettings set org.gnome.desktop.interface gtk-theme 'Zukimac'"
+  Shell "gsettings set org.gnome.desktop.wm.preferences theme 'Zukimac'"
+  Shell "gsettings set org.gnome.desktop.interface icon-theme 'MBuntu-OSX'"
+  Shell "gsettings set org.cinnamon.theme name 'Mac-OS-X'"
+  Shell "gsettings set org.cinnamon.desktop.wm.preferences theme 'Zukimac'"
+Shell "gsettings set org.cinnamon.desktop.interface gtk-theme 'Zukimac'"
+Shell "gsettings set org.cinnamon.desktop.interface icon-theme 'MBuntu-OSX'"
+Shell "gsettings set org.gnome.shell.overrides button-layout close,minimize,maximize:"
+Shell "gsettings set org.gnome.desktop.wm.preferences button-layout close,minimize,maximize:"
+Shell "gsettings set org.cinnamon.desktop.wm.preferences button-layout close,minimize,maximize:"
+Shell "gsettings set org.cinnamon.muffin button-layout close,minimize,maximize:"
+Shell "gsettings set org.cinnamon.desktop.interface gtk-decoration-layout close,minimize,maximize:"
+Shell "killall docky"
+Shell "gconftool-2 --type String --set /apps/docky-2/Docky/Interface/DockPreferences/Dock1/Position Bottom"
+Shell "gconftool-2 --type Boolean --set /apps/docky-2/Docky/Interface/DockPreferences/Dock1/ThreeDimensional True"
+Shell "gconftool-2 --type String --set /apps/docky-2/Docky/Interface/DockPreferences/Dock1/Plugins [Trash]"
+Shell "gconftool-2 --type String --set /apps/docky-2/Docky/Services/ThemeService/Theme Buyi-idock"
+Shell "gconftool-2 --type String --set /apps/docky-2/Docky/Interface/DockPreferences/Dock1/Autohide None"
+Shell "gconftool-2 --type Boolean --set /apps/docky-2/Docky/Interface/DockPreferences/Dock1/PanelMode False"
+Shell "gconftool-2 --type Boolean --set /apps/docky-2/Docky/Interface/DockPreferences/Dock1/WindowManager True"
+Shell "gconftool-2 --type Boolean --set /apps/docky-2/Docky/Interface/DockPreferences/Dock1/ZoomEnabled True"
+Shell "gconftool-2 --type String --set /apps/docky-2/Docky/Interface/DockPreferences/Dock1/ZoomPercent 1.3100000000000000"
+Shell "gconftool-2 --type Boolean --set /apps/docky-2/Docky/Items/DockyItem/ShowDockyItem False"
+Shell "cp '/usr/share/feren-os/feren-themer/STARTUP-APPLICATIONS/docky.desktop' ~/.config/autostart/"
+Shell "gsettings set org.cinnamon desktop-layout 'flipped'"
+Shell "gsettings set org.cinnamon panel-top-height 25"
+Shell "docky &"
+Shell "gconftool-2 --type String --set /apps/docky-2/Docky/Interface/DockPreferences/Dock1/Plugins [Trash]"
+Shell "gsettings set org.cinnamon.muffin button-layout close,minimize,maximize:"
+Shell "gsettings set org.cinnamon.desktop.interface gtk-decoration-layout close,minimize,maximize:"
+
+End
+
+Public Sub Button24_Click()
+
+  Shell "gsettings set org.gnome.desktop.interface gtk-theme 'Oranchelo'"
+  Shell "gsettings set org.gnome.desktop.wm.preferences theme 'Oranchelo'"
+  Shell "gsettings set org.gnome.desktop.interface icon-theme 'Oranchelo-icons'"
+  Shell "gsettings set org.cinnamon.theme name 'MBuntu-Y-For-Cinnamon'"
+  Shell "gsettings set org.cinnamon.desktop.wm.preferences theme 'Oranchelo'"
+  Shell "gsettings set org.cinnamon.desktop.interface gtk-theme 'Oranchelo'"
+Shell "gsettings set org.cinnamon.desktop.interface icon-theme 'Oranchelo-icons'"
+Shell "gsettings set org.gnome.shell.overrides button-layout close,maximize,minimize:"
+Shell "gsettings set org.gnome.desktop.wm.preferences button-layout close,maximize,minimize:"
+Shell "gsettings set org.cinnamon.desktop.wm.preferences button-layout close,maximize,minimize:"
+Shell "gsettings set org.cinnamon desktop-layout 'traditional'"
+
+End
+
+Public Sub Button26_Click()
+
+  Shell "gsettings set org.gnome.desktop.interface gtk-theme 'Arc'"
+  Shell "gsettings set org.gnome.desktop.wm.preferences theme 'Arc'"
+  Shell "gsettings set org.gnome.desktop.interface icon-theme 'Oranchelo-icons'"
+  Shell "gsettings set org.cinnamon.theme name 'feren'"
+  Shell "gsettings set org.cinnamon.desktop.wm.preferences theme 'Arc'"
+  Shell "gsettings set org.cinnamon.desktop.interface gtk-theme 'Arc'"
+Shell "gsettings set org.cinnamon.desktop.interface icon-theme 'Oranchelo-icons'"
+Shell "gsettings set org.gnome.shell.overrides button-layout :minimize,maximize,close"
+Shell "gsettings set org.gnome.desktop.wm.preferences button-layout :minimize,maximize,close"
+Shell "gsettings set org.cinnamon.desktop.wm.preferences button-layout :minimize,maximize,close"
+Shell "gsettings set org.cinnamon desktop-layout 'flipped'"
+
+End
+
+Public Sub Button25_Click()
+
+  Shell "gsettings set org.gnome.desktop.interface gtk-theme 'Trevilla-ThemeWhite'"
+  Shell "gsettings set org.gnome.desktop.wm.preferences theme 'Trevilla-ThemeWhite'"
+  Shell "gsettings set org.gnome.desktop.interface icon-theme 'Sigma-metro-win2folders'"
+  Shell "gsettings set org.cinnamon.theme name 'White'"
+  Shell "gsettings set org.cinnamon.desktop.wm.preferences theme 'Trevilla-ThemeWhite'"
+  Shell "gsettings set org.cinnamon.desktop.interface gtk-theme 'Trevilla-ThemeWhite'"
+Shell "gsettings set org.cinnamon.desktop.interface icon-theme 'Sigma-metro-win2folders'"
+Shell "gsettings set org.gnome.shell.overrides button-layout :minimize,maximize,close"
+Shell "gsettings set org.gnome.desktop.wm.preferences button-layout :minimize,maximize,close"
+Shell "gsettings set org.cinnamon.desktop.wm.preferences button-layout :minimize,maximize,close"
+Shell "gsettings set org.cinnamon desktop-layout 'traditional'"
+
+End
+
+Public Sub Button27_Click()
+
+  Shell "gsettings set org.gnome.desktop.interface gtk-theme 'Trevilla-ThemeGray'"
+  Shell "gsettings set org.gnome.desktop.wm.preferences theme 'Trevilla-ThemeGray'"
+  Shell "gsettings set org.gnome.desktop.interface icon-theme 'Sigma-metro-win2folders'"
+  Shell "gsettings set org.cinnamon.theme name 'White'"
+  Shell "gsettings set org.cinnamon.desktop.wm.preferences theme 'Trevilla-ThemeGray'"
+  Shell "gsettings set org.cinnamon.desktop.interface gtk-theme 'Trevilla-ThemeGray'"
+Shell "gsettings set org.cinnamon.desktop.interface icon-theme 'Sigma-metro-win2folders'"
+Shell "gsettings set org.gnome.shell.overrides button-layout :minimize,maximize,close"
+Shell "gsettings set org.gnome.desktop.wm.preferences button-layout :minimize,maximize,close"
+Shell "gsettings set org.cinnamon.desktop.wm.preferences button-layout :minimize,maximize,close"
+Shell "gsettings set org.cinnamon desktop-layout 'traditional'"
+
+End
+
+Public Sub Button28_Click()
+
+  Shell "gsettings set org.gnome.desktop.interface gtk-theme 'Trevilla-ThemeDark'"
+  Shell "gsettings set org.gnome.desktop.wm.preferences theme 'Trevilla-ThemeDark'"
+  Shell "gsettings set org.gnome.desktop.interface icon-theme 'Sigma-metro-win2folders'"
+  Shell "gsettings set org.cinnamon.theme name 'White'"
+  Shell "gsettings set org.cinnamon.desktop.wm.preferences theme 'Trevilla-ThemeDark'"
+  Shell "gsettings set org.cinnamon.desktop.interface gtk-theme 'Trevilla-ThemeDark'"
+Shell "gsettings set org.cinnamon.desktop.interface icon-theme 'Sigma-metro-win2folders'"
+Shell "gsettings set org.gnome.shell.overrides button-layout :minimize,maximize,close"
+Shell "gsettings set org.gnome.desktop.wm.preferences button-layout :minimize,maximize,close"
+Shell "gsettings set org.cinnamon.desktop.wm.preferences button-layout :minimize,maximize,close"
+Shell "gsettings set org.cinnamon desktop-layout 'traditional'"
+
+End
+
+Public Sub Button29_Click()
+
+  Shell "gsettings set org.gnome.desktop.interface gtk-theme 'Trevilla-ThemeChrome'"
+  Shell "gsettings set org.gnome.desktop.wm.preferences theme 'Trevilla-ThemeChrome'"
+  Shell "gsettings set org.gnome.desktop.interface icon-theme 'Sigma-metro-win2folders'"
+  Shell "gsettings set org.cinnamon.theme name 'Chrome 0.5'"
+  Shell "gsettings set org.cinnamon.desktop.wm.preferences theme 'Trevilla-ThemeChrome'"
+  Shell "gsettings set org.cinnamon.desktop.interface gtk-theme 'Trevilla-ThemeChrome'"
+Shell "gsettings set org.cinnamon.desktop.interface icon-theme 'Sigma-metro-win2folders'"
+Shell "gsettings set org.gnome.shell.overrides button-layout :minimize,maximize,close"
+Shell "gsettings set org.gnome.desktop.wm.preferences button-layout :minimize,maximize,close"
+Shell "gsettings set org.cinnamon.desktop.wm.preferences button-layout :minimize,maximize,close"
+Shell "gsettings set org.cinnamon desktop-layout 'traditional'"
+
+End
+
+Public Sub Label12_MouseDown()
+
+  Win8Themes.Visible = False
+   Win7Themes.Visible = False
+   Winxpthemes.visible = False
+   win2kthemes.visible = False
+   macosxthemes.visible = False
+   ubuntuthemes.visible = False
+   ferenthemes.visible = False
+   numixthemes.visible = False
+   linuxmintthemes.visible = False
+   ozonthemes.visible = False
+   FlatthemesThemes.visible = True
+   Win10themesthemes.visible = False
+   Hide_8Colours
+
+End
+
+Public Sub Button31_Click()
+
+ 
+
+End
+
+Public Sub PictureBox2_MouseDown()
+
+   Shell "gsettings set org.gnome.desktop.interface gtk-theme 'Windows 10'"
+  Shell "gsettings set org.gnome.desktop.wm.preferences theme 'Windows 10'"
+  Shell "gsettings set org.gnome.desktop.interface icon-theme 'Windows10'"
+  Shell "gsettings set org.cinnamon.theme name 'Windows 10'"
+  Shell "gsettings set org.cinnamon.desktop.wm.preferences theme 'Windows 10'"
+  Shell "gsettings set org.cinnamon.desktop.interface gtk-theme 'Windows 10'"
+Shell "gsettings set org.cinnamon.desktop.interface icon-theme 'Windows10'"
+Shell "gsettings set org.gnome.shell.overrides button-layout menu:minimize,maximize,close"
+Shell "gsettings set org.gnome.desktop.wm.preferences button-layout menu:minimize,maximize,close"
+Shell "gsettings set org.cinnamon.desktop.wm.preferences button-layout menu:minimize,maximize,close"
+Shell "gsettings set org.cinnamon.muffin button-layout menu:minimize,maximize,close"
+Shell "gsettings set org.cinnamon.desktop.interface gtk-decoration-layout menu:minimize,maximize,close"
+Shell "killall docky"
+Shell "rm ~/.config/autostart/docky.desktop"
+Shell "gsettings set org.cinnamon desktop-layout 'traditional'"
+
+End
+
+Public Sub Label144_MouseDown()
+
+   Shell "gsettings set org.gnome.desktop.interface gtk-theme 'Windows 10'"
+  Shell "gsettings set org.gnome.desktop.wm.preferences theme 'Windows 10'"
+  Shell "gsettings set org.gnome.desktop.interface icon-theme 'Windows10'"
+  Shell "gsettings set org.cinnamon.theme name 'Windows 10'"
+  Shell "gsettings set org.cinnamon.desktop.wm.preferences theme 'Windows 10'"
+  Shell "gsettings set org.cinnamon.desktop.interface gtk-theme 'Windows 10'"
+Shell "gsettings set org.cinnamon.desktop.interface icon-theme 'Windows10'"
+Shell "gsettings set org.gnome.shell.overrides button-layout menu:minimize,maximize,close"
+Shell "gsettings set org.gnome.desktop.wm.preferences button-layout menu:minimize,maximize,close"
+Shell "gsettings set org.cinnamon.desktop.wm.preferences button-layout menu:minimize,maximize,close"
+Shell "gsettings set org.cinnamon.muffin button-layout menu:minimize,maximize,close"
+Shell "gsettings set org.cinnamon.desktop.interface gtk-decoration-layout menu:minimize,maximize,close"
+Shell "killall docky"
+Shell "rm ~/.config/autostart/docky.desktop"
+Shell "gsettings set org.cinnamon desktop-layout 'traditional'"
+
+End
+
+Public Sub Label135_MouseDown()
+
+  Win8Themes.Visible = False
+   Win7Themes.Visible = False
+   Winxpthemes.visible = False
+   win2kthemes.visible = False
+   macosxthemes.visible = False
+   ubuntuthemes.visible = False
+   ferenthemes.visible = False
+   numixthemes.visible = False
+   linuxmintthemes.visible = False
+   ozonthemes.visible = False
+   FlatthemesThemes.visible = False
+   Win10themesthemes.visible = True
+   Hide_8Colours
+
+End
+
+Public Sub PictureBox3_MouseDown()
+
+  Shell "gsettings set org.gnome.desktop.interface gtk-theme 'Aero'"
+  Shell "gsettings set org.gnome.desktop.wm.preferences theme 'Win2-7Basic'"
+  Shell "gsettings set org.gnome.desktop.interface icon-theme 'Windows'"
+  Shell "gsettings set org.cinnamon.theme name 'Aero-Basic'"
+  Shell "gsettings set org.cinnamon.desktop.wm.preferences theme 'Win2-7Basic'"
+  Shell "gsettings set org.cinnamon.desktop.interface gtk-theme 'Aero'"
+Shell "gsettings set org.cinnamon.desktop.interface icon-theme 'Windows'"
+Shell "gsettings set org.gnome.shell.overrides button-layout menu:minimize,maximize,close"
+Shell "gsettings set org.gnome.desktop.wm.preferences button-layout menu:minimize,maximize,close"
+Shell "gsettings set org.cinnamon.desktop.wm.preferences button-layout menu:minimize,maximize,close"
+Shell "gsettings set org.cinnamon.muffin button-layout menu:minimize,maximize,close"
+Shell "gsettings set org.cinnamon desktop-layout 'traditional'"
+Shell "gsettings set org.cinnamon.desktop.interface gtk-decoration-layout menu:minimize,maximize,close"
+Shell "killall docky"
+Shell "rm ~/.config/autostart/docky.desktop"
+Shell "gsettings set org.cinnamon.muffin button-layout menu:minimize,maximize,close"
+Shell "gsettings set org.cinnamon.desktop.interface gtk-decoration-layout menu:minimize,maximize,close"
+
+End
+
+Public Sub Label145_MouseDown()
+
+  Shell "gsettings set org.gnome.desktop.interface gtk-theme 'Aero-Basic'"
+  Shell "gsettings set org.gnome.desktop.wm.preferences theme 'Aero-Basic'"
+  Shell "gsettings set org.gnome.desktop.interface icon-theme 'Windows'"
+  Shell "gsettings set org.cinnamon.theme name 'Aero-Basic'"
+  Shell "gsettings set org.cinnamon.desktop.wm.preferences theme 'Aero-Basic'"
+  Shell "gsettings set org.cinnamon.desktop.interface gtk-theme 'Aero-Basic'"
+Shell "gsettings set org.cinnamon.desktop.interface icon-theme 'Windows'"
+Shell "gsettings set org.gnome.shell.overrides button-layout menu:minimize,maximize,close"
+Shell "gsettings set org.gnome.desktop.wm.preferences button-layout menu:minimize,maximize,close"
+Shell "gsettings set org.cinnamon.desktop.wm.preferences button-layout menu:minimize,maximize,close"
+Shell "gsettings set org.cinnamon.muffin button-layout menu:minimize,maximize,close"
+Shell "gsettings set org.cinnamon.desktop.interface gtk-decoration-layout menu:minimize,maximize,close"
+Shell "killall docky"
+Shell "rm ~/.config/autostart/docky.desktop"
+Shell "gsettings set org.cinnamon desktop-layout 'traditional'"
+Shell "gsettings set org.cinnamon.muffin button-layout menu:minimize,maximize,close"
+Shell "gsettings set org.cinnamon.desktop.interface gtk-decoration-layout menu:minimize,maximize,close"
+
+End
+
+Public Sub PictureBox4_MouseDown()
+
+  Shell "gsettings set org.gnome.desktop.interface gtk-theme 'CinnXP'"
+  Shell "gsettings set org.gnome.desktop.wm.preferences theme 'CinnXP'"
+  Shell "gsettings set org.gnome.desktop.interface icon-theme 'YlmfOS'"
+  Shell "gsettings set org.cinnamon.theme name 'CinnXP'"
+Shell "gsettings set org.cinnamon.desktop.wm.preferences theme 'CinnXP'"
+Shell "gsettings set org.cinnamon.desktop.interface gtk-theme 'CinnXP'"
+Shell "gsettings set org.cinnamon.desktop.interface icon-theme 'YlmfOS'"
+Shell "gsettings set org.gnome.shell.overrides button-layout menu:minimize,maximize,close"
+Shell "gsettings set org.gnome.desktop.wm.preferences button-layout menu:minimize,maximize,close"
+Shell "gsettings set org.cinnamon.desktop.wm.preferences button-layout menu:minimize,maximize,close"
+Shell "gsettings set org.cinnamon.muffin button-layout menu:minimize,maximize,close"
+Shell "gsettings set org.cinnamon.desktop.interface gtk-decoration-layout menu:minimize,maximize,close"
+Shell "killall docky"
+Shell "rm ~/.config/autostart/docky.desktop"
+Shell "gsettings set org.cinnamon desktop-layout 'traditional'"
+
+End
+
+Public Sub Label146_MouseDown()
+
+  Shell "gsettings set org.gnome.desktop.interface gtk-theme 'CinnXP'"
+  Shell "gsettings set org.gnome.desktop.wm.preferences theme 'CinnXP'"
+  Shell "gsettings set org.gnome.desktop.interface icon-theme 'YlmfOS'"
+  Shell "gsettings set org.cinnamon.theme name 'CinnXP'"
+Shell "gsettings set org.cinnamon.desktop.wm.preferences theme 'CinnXP'"
+Shell "gsettings set org.cinnamon.desktop.interface gtk-theme 'CinnXP'"
+Shell "gsettings set org.cinnamon.desktop.interface icon-theme 'YlmfOS'"
+Shell "gsettings set org.gnome.shell.overrides button-layout menu:minimize,maximize,close"
+Shell "gsettings set org.gnome.desktop.wm.preferences button-layout menu:minimize,maximize,close"
+Shell "gsettings set org.cinnamon.desktop.wm.preferences button-layout menu:minimize,maximize,close"
+Shell "gsettings set org.cinnamon.muffin button-layout menu:minimize,maximize,close"
+Shell "gsettings set org.cinnamon.desktop.interface gtk-decoration-layout menu:minimize,maximize,close"
+Shell "killall docky"
+Shell "rm ~/.config/autostart/docky.desktop"
+Shell "gsettings set org.cinnamon desktop-layout 'traditional'"
+
+End
+
+Public Sub PictureBox5_MouseDown()
+
+  Shell "gsettings set org.gnome.desktop.interface gtk-theme 'CinnXP'"
+  Shell "gsettings set org.gnome.desktop.wm.preferences theme 'Lunacity Olive Green'"
+  Shell "gsettings set org.gnome.desktop.interface icon-theme 'YlmfOS'"
+   Shell "gsettings set org.cinnamon.theme name 'Mint-XP Homestead'"
+   Shell "gsettings set org.cinnamon.desktop.wm.preferences theme 'Lunacity Olive Green'"
+    Shell "gsettings set org.cinnamon.desktop.interface gtk-theme 'CinnXP'"
+Shell "gsettings set org.cinnamon.desktop.interface icon-theme 'YlmfOS'"
+Shell "gsettings set org.gnome.shell.overrides button-layout menu:minimize,maximize,close"
+Shell "gsettings set org.gnome.desktop.wm.preferences button-layout menu:minimize,maximize,close"
+Shell "gsettings set org.cinnamon.desktop.wm.preferences button-layout menu:minimize,maximize,close"
+Shell "gsettings set org.cinnamon.muffin button-layout menu:minimize,maximize,close"
+Shell "gsettings set org.cinnamon.desktop.interface gtk-decoration-layout menu:minimize,maximize,close"
+Shell "killall docky"
+Shell "rm ~/.config/autostart/docky.desktop"
+Shell "gsettings set org.cinnamon desktop-layout 'traditional'"
+
+End
+
+Public Sub Label147_MouseDown()
+
+  Shell "gsettings set org.gnome.desktop.interface gtk-theme 'CinnXP'"
+  Shell "gsettings set org.gnome.desktop.wm.preferences theme 'Lunacity Olive Green'"
+  Shell "gsettings set org.gnome.desktop.interface icon-theme 'YlmfOS'"
+   Shell "gsettings set org.cinnamon.theme name 'Mint-XP Homestead'"
+   Shell "gsettings set org.cinnamon.desktop.wm.preferences theme 'Lunacity Olive Green'"
+    Shell "gsettings set org.cinnamon.desktop.interface gtk-theme 'CinnXP'"
+Shell "gsettings set org.cinnamon.desktop.interface icon-theme 'YlmfOS'"
+Shell "gsettings set org.gnome.shell.overrides button-layout menu:minimize,maximize,close"
+Shell "gsettings set org.gnome.desktop.wm.preferences button-layout menu:minimize,maximize,close"
+Shell "gsettings set org.cinnamon.desktop.wm.preferences button-layout menu:minimize,maximize,close"
+Shell "gsettings set org.cinnamon.muffin button-layout menu:minimize,maximize,close"
+Shell "gsettings set org.cinnamon.desktop.interface gtk-decoration-layout menu:minimize,maximize,close"
+Shell "killall docky"
+Shell "rm ~/.config/autostart/docky.desktop"
+Shell "gsettings set org.cinnamon desktop-layout 'traditional'"
+
+End
+
+Public Sub PictureBox6_MouseDown()
+
+  Shell "gsettings set org.gnome.desktop.interface gtk-theme 'CinnXP'"
+  Shell "gsettings set org.gnome.desktop.wm.preferences theme 'Lunacity Silver'"
+  Shell "gsettings set org.gnome.desktop.interface icon-theme 'YlmfOS'"
+ Shell "gsettings set org.cinnamon.theme name 'Mint-XP Metallic'"
+ Shell "gsettings set org.cinnamon.desktop.wm.preferences theme 'Lunacity Silver'"
+ Shell "gsettings set org.cinnamon.desktop.interface gtk-theme 'CinnXP'"
+Shell "gsettings set org.cinnamon.desktop.interface icon-theme 'YlmfOS'"
+Shell "gsettings set org.gnome.shell.overrides button-layout menu:minimize,maximize,close"
+Shell "gsettings set org.gnome.desktop.wm.preferences button-layout menu:minimize,maximize,close"
+Shell "gsettings set org.cinnamon.desktop.wm.preferences button-layout menu:minimize,maximize,close"
+Shell "gsettings set org.cinnamon.muffin button-layout menu:minimize,maximize,close"
+Shell "gsettings set org.cinnamon.desktop.interface gtk-decoration-layout menu:minimize,maximize,close"
+Shell "killall docky"
+Shell "rm ~/.config/autostart/docky.desktop"
+Shell "gsettings set org.cinnamon desktop-layout 'traditional'"
+
+End
+
+Public Sub Label148_MouseDown()
+
+  Shell "gsettings set org.gnome.desktop.interface gtk-theme 'CinnXP'"
+  Shell "gsettings set org.gnome.desktop.wm.preferences theme 'Lunacity Silver'"
+  Shell "gsettings set org.gnome.desktop.interface icon-theme 'YlmfOS'"
+ Shell "gsettings set org.cinnamon.theme name 'Mint-XP Metallic'"
+ Shell "gsettings set org.cinnamon.desktop.wm.preferences theme 'Lunacity Silver'"
+ Shell "gsettings set org.cinnamon.desktop.interface gtk-theme 'CinnXP'"
+Shell "gsettings set org.cinnamon.desktop.interface icon-theme 'YlmfOS'"
+Shell "gsettings set org.gnome.shell.overrides button-layout menu:minimize,maximize,close"
+Shell "gsettings set org.gnome.desktop.wm.preferences button-layout menu:minimize,maximize,close"
+Shell "gsettings set org.cinnamon.desktop.wm.preferences button-layout menu:minimize,maximize,close"
+Shell "gsettings set org.cinnamon.muffin button-layout menu:minimize,maximize,close"
+Shell "gsettings set org.cinnamon.desktop.interface gtk-decoration-layout menu:minimize,maximize,close"
+Shell "killall docky"
+Shell "rm ~/.config/autostart/docky.desktop"
+Shell "gsettings set org.cinnamon desktop-layout 'traditional'"
+
+End
+
+Public Sub Button23_Click()
+
+  Shell "gsettings set org.gnome.desktop.interface gtk-theme 'Ubuntu Unity 8'"
+  Shell "gsettings set org.gnome.desktop.wm.preferences theme 'Ubuntu Unity 8'"
+  Shell "gsettings set org.gnome.desktop.interface icon-theme 'ubuntu-mono-dark'"
+  Shell "gsettings set org.cinnamon.theme name 'Ambiance Minty'"
+  Shell "gsettings set org.cinnamon.desktop.wm.preferences theme 'Ubuntu Unity 8'"
+Shell "gsettings set org.cinnamon.desktop.interface gtk-theme 'Ubuntu Unity 8'"
+Shell "gsettings set org.cinnamon.desktop.interface icon-theme 'ubuntu-mono-dark'"
+Shell "gsettings set org.gnome.shell.overrides button-layout close,maximize,minimize:"
+Shell "gsettings set org.gnome.desktop.wm.preferences button-layout close,maximize,minimize:"
+Shell "gsettings set org.cinnamon.desktop.wm.preferences button-layout close,maximize,minimize:"
+Shell "gsettings set org.cinnamon desktop-layout 'flipped'"
+Shell "gsettings set org.cinnamon.muffin button-layout close,minimize,maximize:"
+Shell "gsettings set org.cinnamon.desktop.interface gtk-decoration-layout close,minimize,maximize:"
+Shell "killall docky"
+Shell "rm ~/.config/autostart/docky.desktop"
+
+End
+
+Public Sub PictureBox7_MouseDown()
+
+   Shell "gsettings set org.gnome.desktop.interface gtk-theme 'CinnXP'"
+  Shell "gsettings set org.gnome.desktop.wm.preferences theme 'Zune'"
+  Shell "gsettings set org.gnome.desktop.interface icon-theme 'YlmfOS'"
+ Shell "gsettings set org.cinnamon.theme name 'Mint-XP Metallic'"
+ Shell "gsettings set org.cinnamon.desktop.wm.preferences theme 'Zune'"
+Shell "gsettings set org.cinnamon.desktop.interface gtk-theme 'CinnXP'"
+Shell "gsettings set org.cinnamon.desktop.interface icon-theme 'YlmfOS'"
+Shell "gsettings set org.gnome.shell.overrides button-layout menu:minimize,maximize,close"
+Shell "gsettings set org.gnome.desktop.wm.preferences button-layout menu:minimize,maximize,close"
+Shell "gsettings set org.cinnamon.desktop.wm.preferences button-layout menu:minimize,maximize,close"
+Shell "gsettings set org.cinnamon.muffin button-layout menu:minimize,maximize,close"
+Shell "gsettings set org.cinnamon.desktop.interface gtk-decoration-layout menu:minimize,maximize,close"
+Shell "killall docky"
+Shell "rm ~/.config/autostart/docky.desktop"
+Shell "gsettings set org.cinnamon desktop-layout 'traditional'"
+
+End
+
+Public Sub Label149_MouseDown()
+
+Shell "gsettings set org.gnome.desktop.interface gtk-theme 'CinnXP'"
+Shell "gsettings set org.gnome.desktop.wm.preferences theme 'Zune'"
+Shell "gsettings set org.gnome.desktop.interface icon-theme 'YlmfOS'"
+Shell "gsettings set org.cinnamon.theme name 'Mint-XP Metallic'"
+Shell "gsettings set org.cinnamon.desktop.wm.preferences theme 'Zune'" 
+Shell "gsettings set org.cinnamon.desktop.interface gtk-theme 'CinnXP'"
+Shell "gsettings set org.cinnamon.desktop.interface icon-theme 'YlmfOS'"
+Shell "gsettings set org.gnome.shell.overrides button-layout menu:minimize,maximize,close"
+Shell "gsettings set org.gnome.desktop.wm.preferences button-layout menu:minimize,maximize,close"
+Shell "gsettings set org.cinnamon.desktop.wm.preferences button-layout menu:minimize,maximize,close"
+Shell "gsettings set org.cinnamon.muffin button-layout menu:minimize,maximize,close"
+Shell "gsettings set org.cinnamon.desktop.interface gtk-decoration-layout menu:minimize,maximize,close"
+Shell "killall docky"
+Shell "rm ~/.config/autostart/docky.desktop"
+Shell "gsettings set org.cinnamon desktop-layout 'traditional'"
+End
+
+Public Sub PictureBox8_MouseDown()
+
+  Shell "gsettings set org.gnome.desktop.interface gtk-theme 'feren'"
+Shell "gsettings set org.gnome.desktop.wm.preferences theme 'feren'"
+Shell "gsettings set org.gnome.desktop.interface icon-theme 'Inspire'"
+Shell "gsettings set org.cinnamon.theme name 'feren'"
+Shell "gsettings set org.cinnamon.desktop.wm.preferences theme 'feren'" 
+Shell "gsettings set org.cinnamon.desktop.interface gtk-theme 'feren'"
+Shell "gsettings set org.cinnamon.desktop.interface icon-theme 'Inspire'"
+Shell "gsettings set org.gnome.shell.overrides button-layout maximize,menu:minimize,close"
+Shell "gsettings set org.gnome.desktop.wm.preferences button-layout maximize,menu:minimize,close"
+Shell "gsettings set org.cinnamon.desktop.wm.preferences button-layout maximize,menu:minimize,close"
+Shell "gsettings set org.cinnamon.muffin button-layout maximize,menu:minimize,close"
+Shell "gsettings set org.cinnamon.desktop.interface gtk-decoration-layout maximize,menu:minimize,close"
+Shell "killall docky"
+Shell "rm ~/.config/autostart/docky.desktop"
+Shell "gsettings set org.cinnamon desktop-layout 'traditional'"
+
+End
+
+Public Sub Label100_MouseDown()
+
+  Shell "gsettings set org.gnome.desktop.interface gtk-theme 'feren'"
+Shell "gsettings set org.gnome.desktop.wm.preferences theme 'feren'"
+Shell "gsettings set org.gnome.desktop.interface icon-theme 'Inspire'"
+Shell "gsettings set org.cinnamon.theme name 'feren'"
+Shell "gsettings set org.cinnamon.desktop.wm.preferences theme 'feren'" 
+Shell "gsettings set org.cinnamon.desktop.interface gtk-theme 'feren'"
+Shell "gsettings set org.cinnamon.desktop.interface icon-theme 'Inspire'"
+Shell "gsettings set org.gnome.shell.overrides button-layout maximize,menu:minimize,close"
+Shell "gsettings set org.gnome.desktop.wm.preferences button-layout maximize,menu:minimize,close"
+Shell "gsettings set org.cinnamon.desktop.wm.preferences button-layout maximize,menu:minimize,close"
+Shell "gsettings set org.cinnamon.muffin button-layout maximize,menu:minimize,close"
+Shell "gsettings set org.cinnamon.desktop.interface gtk-decoration-layout maximize,menu:minimize,close"
+Shell "killall docky"
+Shell "rm ~/.config/autostart/docky.desktop"
+Shell "gsettings set org.cinnamon desktop-layout 'traditional'"
+
+End
+
+Public Sub PictureBox9_MouseDown()
+
+  Shell "gsettings set org.gnome.desktop.interface gtk-theme 'Aero'"
+  Shell "gsettings set org.gnome.desktop.wm.preferences theme 'Aero'"
+  Shell "gsettings set org.gnome.desktop.interface icon-theme 'Windows'"
+  Shell "gsettings set org.cinnamon.theme name 'Windows Se7en'"
+  Shell "gsettings set org.cinnamon.desktop.wm.preferences theme 'Aero'"
+  Shell "gsettings set org.cinnamon.desktop.interface gtk-theme 'Aero'"
+Shell "gsettings set org.cinnamon.desktop.interface icon-theme 'Windows'"
+Shell "gsettings set org.gnome.shell.overrides button-layout :minimize,maximize,close"
+Shell "gsettings set org.gnome.desktop.wm.preferences button-layout :minimize,maximize,close"
+Shell "gsettings set org.cinnamon.desktop.wm.preferences button-layout :minimize,maximize,close"
+Shell "gsettings set org.cinnamon.desktop.interface gtk-decoration-layout menu:minimize,maximize,close"
+Shell "killall docky"
+Shell "rm ~/.config/autostart/docky.desktop"
+Shell "gsettings set org.cinnamon desktop-layout 'traditional'"
+Shell "gsettings set org.cinnamon.muffin button-layout menu:minimize,maximize,close"
+Shell "gsettings set org.cinnamon.desktop.interface gtk-decoration-layout menu:minimize,maximize,close"
+
+End
+
+Public Sub Win7Themes_MouseDown()
+
+  
+
+End
+
+Public Sub Label150_MouseDown()
+
+  Shell "gsettings set org.gnome.desktop.interface gtk-theme 'Aero'"
+  Shell "gsettings set org.gnome.desktop.wm.preferences theme 'Aero'"
+  Shell "gsettings set org.gnome.desktop.interface icon-theme 'Windows'"
+  Shell "gsettings set org.cinnamon.theme name 'Windows Se7en'"
+  Shell "gsettings set org.cinnamon.desktop.wm.preferences theme 'Aero'"
+  Shell "gsettings set org.cinnamon.desktop.interface gtk-theme 'Aero'"
+Shell "gsettings set org.cinnamon.desktop.interface icon-theme 'Windows'"
+Shell "gsettings set org.gnome.shell.overrides button-layout :minimize,maximize,close"
+Shell "gsettings set org.gnome.desktop.wm.preferences button-layout :minimize,maximize,close"
+Shell "gsettings set org.cinnamon.desktop.wm.preferences button-layout :minimize,maximize,close"
+Shell "gsettings set org.cinnamon.desktop.interface gtk-decoration-layout menu:minimize,maximize,close"
+Shell "killall docky"
+Shell "rm ~/.config/autostart/docky.desktop"
+Shell "gsettings set org.cinnamon desktop-layout 'traditional'"
+Shell "gsettings set org.cinnamon.muffin button-layout menu:minimize,maximize,close"
+Shell "gsettings set org.cinnamon.desktop.interface gtk-decoration-layout menu:minimize,maximize,close"
+
+End
+
+Public Sub PictureBox10_MouseDown()
+
+   Shell "gsettings set org.gnome.desktop.interface gtk-theme 'Aero'"
+  Shell "gsettings set org.gnome.desktop.wm.preferences theme 'Aero-Black'"
+  Shell "gsettings set org.gnome.desktop.interface icon-theme 'Windows'"
+  Shell "gsettings set org.cinnamon.theme name 'Windows Se7en'"
+  Shell "gsettings set org.cinnamon.desktop.wm.preferences theme 'Aero-Black'"
+  Shell "gsettings set org.cinnamon.desktop.interface gtk-theme 'Aero'"
+Shell "gsettings set org.cinnamon.desktop.interface icon-theme 'Windows'"
+Shell "gsettings set org.gnome.shell.overrides button-layout :minimize,maximize,close"
+Shell "gsettings set org.gnome.desktop.wm.preferences button-layout :minimize,maximize,close"
+Shell "gsettings set org.cinnamon.desktop.wm.preferences button-layout :minimize,maximize,close"
+Shell "gsettings set org.cinnamon.desktop.interface gtk-decoration-layout menu:minimize,maximize,close"
+Shell "killall docky"
+Shell "rm ~/.config/autostart/docky.desktop"
+Shell "gsettings set org.cinnamon desktop-layout 'traditional'"
+Shell "gsettings set org.cinnamon.muffin button-layout menu:minimize,maximize,close"
+Shell "gsettings set org.cinnamon.desktop.interface gtk-decoration-layout menu:minimize,maximize,close"
+
+End
+
+Public Sub Label151_MouseDown()
+
+  Shell "gsettings set org.gnome.desktop.interface gtk-theme 'Aero'"
+  Shell "gsettings set org.gnome.desktop.wm.preferences theme 'Aero-Black'"
+  Shell "gsettings set org.gnome.desktop.interface icon-theme 'Windows'"
+  Shell "gsettings set org.cinnamon.theme name 'Windows Se7en'"
+  Shell "gsettings set org.cinnamon.desktop.wm.preferences theme 'Aero-Black'"
+  Shell "gsettings set org.cinnamon.desktop.interface gtk-theme 'Aero'"
+Shell "gsettings set org.cinnamon.desktop.interface icon-theme 'Windows'"
+Shell "gsettings set org.gnome.shell.overrides button-layout :minimize,maximize,close"
+Shell "gsettings set org.gnome.desktop.wm.preferences button-layout :minimize,maximize,close"
+Shell "gsettings set org.cinnamon.desktop.wm.preferences button-layout :minimize,maximize,close"
+Shell "gsettings set org.cinnamon.desktop.interface gtk-decoration-layout menu:minimize,maximize,close"
+Shell "killall docky"
+Shell "rm ~/.config/autostart/docky.desktop"
+Shell "gsettings set org.cinnamon desktop-layout 'traditional'"
+Shell "gsettings set org.cinnamon.muffin button-layout menu:minimize,maximize,close"
+Shell "gsettings set org.cinnamon.desktop.interface gtk-decoration-layout menu:minimize,maximize,close"
+
+End
+
+Public Sub PictureBox11_MouseDown()
+
+   Shell "gsettings set org.gnome.desktop.interface gtk-theme 'Aero'"
+  Shell "gsettings set org.gnome.desktop.wm.preferences theme 'Aero-White'"
+  Shell "gsettings set org.gnome.desktop.interface icon-theme 'Windows'"
+  Shell "gsettings set org.cinnamon.theme name 'Windows Se7en'"
+  Shell "gsettings set org.cinnamon.desktop.wm.preferences theme 'Aero-White'"
+  Shell "gsettings set org.cinnamon.desktop.interface gtk-theme 'Aero'"
+Shell "gsettings set org.cinnamon.desktop.interface icon-theme 'Windows'"
+Shell "gsettings set org.gnome.shell.overrides button-layout :minimize,maximize,close"
+Shell "gsettings set org.gnome.desktop.wm.preferences button-layout :minimize,maximize,close"
+Shell "gsettings set org.cinnamon.desktop.wm.preferences button-layout :minimize,maximize,close"
+Shell "gsettings set org.cinnamon.desktop.interface gtk-decoration-layout menu:minimize,maximize,close"
+Shell "killall docky"
+Shell "rm ~/.config/autostart/docky.desktop"
+Shell "gsettings set org.cinnamon desktop-layout 'traditional'"
+Shell "gsettings set org.cinnamon.muffin button-layout menu:minimize,maximize,close"
+Shell "gsettings set org.cinnamon.desktop.interface gtk-decoration-layout menu:minimize,maximize,close"
+
+End
+
+Public Sub Button30_MouseUp()
+
+  
+
+End
+
+Public Sub Button30_MouseDown()
+
+  Shell "gsettings set org.gnome.desktop.interface gtk-theme 'Arc'"
+  Shell "gsettings set org.gnome.desktop.wm.preferences theme 'Arc'"
+  Shell "gsettings set org.gnome.desktop.interface icon-theme 'Oranchelo'"
+  Shell "gsettings set org.cinnamon.theme name 'Arc'"
+  Shell "gsettings set org.cinnamon.desktop.wm.preferences theme 'Arc'"
+Shell "gsettings set org.cinnamon.desktop.interface gtk-theme 'Arc'"
+Shell "gsettings set org.cinnamon.desktop.interface icon-theme 'Oranchelo'"
+Shell "gsettings set org.gnome.shell.overrides button-layout :minimize,maximize,close"
+Shell "gsettings set org.gnome.desktop.wm.preferences button-layout :minimize,maximize,close"
+Shell "gsettings set org.cinnamon.desktop.wm.preferences button-layout :minimize,maximize,close"
+Shell "gsettings set org.cinnamon.muffin button-layout :minimize,maximize,close"
+Shell "gsettings set org.cinnamon.desktop.interface gtk-decoration-layout :minimize,maximize,close"
+Shell "killall docky"
+Shell "rm ~/.config/autostart/docky.desktop"
+Shell "gsettings set org.cinnamon desktop-layout 'flipped'"
+
+End
+
+Public Sub MenuButton1_Click()
+
+  
+
+End
+
+Public Sub PictureBox13_MouseDown()
+
+  If Panel4.visible = False Then
+  Panel4.show
+  Else
+    Panel4.Hide
+    End If
+
+End
+
+Public Sub Label154_MouseDown()
+
+  Label15.text = " Select a Colour..."
+  Label117.text = "Mint X Colours:"
+  Panel4.hide
+
+End
+
+Public Sub Label154_Enter()
+
+  Label154.background = Panel1.background
+  Label154.foreground = Label2.Foreground
+
+End
+
+Public Sub Label154_Leave()
+
+  Label154.background = Panel6.background
+  Label154.foreground = Panel7.background
+
+End
+
+Public Sub Label53_MouseDown()
+
+  
+
+End
+
+Public Sub Label55_MouseDown()
+
+  
+
+End
+
+Public Sub Button30_Click()
+
+  
+
+End
+
+Public Sub Label155_MouseDown()
+
+  Label15.text = " Select a Color..."
+  Label117.text = "Mint X Colors:"
+Panel4.hide
+
+End
+
+Public Sub Label155_Enter()
+
+  Label155.background = Panel1.background
+  Label155.foreground = Label2.Foreground
+
+End
+
+Public Sub Label155_Leave()
+
+  Label155.background = Panel6.background
+  Label155.foreground = Panel7.background
+
+End
+
+Public Sub PictureBox14_MouseDown()
+
+  Shell "gsettings set org.gnome.desktop.interface gtk-theme 'Windows 10 Dark'"
+  Shell "gsettings set org.gnome.desktop.wm.preferences theme 'Windows 10 Dark'"
+  Shell "gsettings set org.gnome.desktop.interface icon-theme 'Windows10'"
+  Shell "gsettings set org.cinnamon.theme name 'Windows 10'"
+  Shell "gsettings set org.cinnamon.desktop.wm.preferences theme 'Windows 10 Dark'"
+  Shell "gsettings set org.cinnamon.desktop.interface gtk-theme 'Windows 10 Dark'"
+Shell "gsettings set org.cinnamon.desktop.interface icon-theme 'Windows10'"
+Shell "gsettings set org.gnome.shell.overrides button-layout menu:minimize,maximize,close"
+Shell "gsettings set org.gnome.desktop.wm.preferences button-layout menu:minimize,maximize,close"
+Shell "gsettings set org.cinnamon.desktop.wm.preferences button-layout menu:minimize,maximize,close"
+Shell "gsettings set org.cinnamon.muffin button-layout menu:minimize,maximize,close"
+Shell "gsettings set org.cinnamon.desktop.interface gtk-decoration-layout menu:minimize,maximize,close"
+Shell "killall docky"
+Shell "rm ~/.config/autostart/docky.desktop"
+Shell "gsettings set org.cinnamon desktop-layout 'traditional'"
+
+End
+
+Public Sub Label157_MouseDown()
+
+  Shell "gsettings set org.gnome.desktop.interface gtk-theme 'Windows 10 Dark'"
+  Shell "gsettings set org.gnome.desktop.wm.preferences theme 'Windows 10 Dark'"
+  Shell "gsettings set org.gnome.desktop.interface icon-theme 'Windows10'"
+  Shell "gsettings set org.cinnamon.theme name 'Windos-10'"
+  Shell "gsettings set org.cinnamon.desktop.wm.preferences theme 'Windows 10 Dark'"
+  Shell "gsettings set org.cinnamon.desktop.interface gtk-theme 'Windows 10 Dark'"
+Shell "gsettings set org.cinnamon.desktop.interface icon-theme 'Windows10'"
+Shell "gsettings set org.gnome.shell.overrides button-layout menu:minimize,maximize,close"
+Shell "gsettings set org.gnome.desktop.wm.preferences button-layout menu:minimize,maximize,close"
+Shell "gsettings set org.cinnamon.desktop.wm.preferences button-layout menu:minimize,maximize,close"
+Shell "gsettings set org.cinnamon.muffin button-layout menu:minimize,maximize,close"
+Shell "gsettings set org.cinnamon.desktop.interface gtk-decoration-layout menu:minimize,maximize,close"
+Shell "killall docky"
+Shell "rm ~/.config/autostart/docky.desktop"
+Shell "gsettings set org.cinnamon desktop-layout 'traditional'"
+
+End
+
+Public Sub Label152_MouseDown()
+
+  Shell "gsettings set org.gnome.desktop.interface gtk-theme 'Aero'"
+  Shell "gsettings set org.gnome.desktop.wm.preferences theme 'Aero-White'"
+  Shell "gsettings set org.gnome.desktop.interface icon-theme 'Windows'"
+  Shell "gsettings set org.cinnamon.theme name 'Windows Se7en'"
+  Shell "gsettings set org.cinnamon.desktop.wm.preferences theme 'Aero-White'"
+  Shell "gsettings set org.cinnamon.desktop.interface gtk-theme 'Aero'"
+Shell "gsettings set org.cinnamon.desktop.interface icon-theme 'Windows'"
+Shell "gsettings set org.gnome.shell.overrides button-layout :minimize,maximize,close"
+Shell "gsettings set org.gnome.desktop.wm.preferences button-layout :minimize,maximize,close"
+Shell "gsettings set org.cinnamon.desktop.wm.preferences button-layout :minimize,maximize,close"
+Shell "gsettings set org.cinnamon.desktop.interface gtk-decoration-layout menu:minimize,maximize,close"
+Shell "killall docky"
+Shell "rm ~/.config/autostart/docky.desktop"
+Shell "gsettings set org.cinnamon desktop-layout 'traditional'"
+Shell "gsettings set org.cinnamon.muffin button-layout menu:minimize,maximize,close"
+Shell "gsettings set org.cinnamon.desktop.interface gtk-decoration-layout menu:minimize,maximize,close"
+
+End
+
+Public Sub Button30_MouseDrag()
+
+  
+
+End
+
+Public Sub Label54_MouseDown()
+
+  
+
+End
+
+Public Sub PictureBox16_MouseDown()
+
+  Shell "gsettings set org.gnome.desktop.interface gtk-theme 'Aero'"
+  Shell "gsettings set org.gnome.desktop.wm.preferences theme 'Aero-Blue'"
+  Shell "gsettings set org.gnome.desktop.interface icon-theme 'Windows'"
+  Shell "gsettings set org.cinnamon.theme name 'Windows Se7en Default'"
+  Shell "gsettings set org.cinnamon.desktop.wm.preferences theme 'Aero-Blue'"
+  Shell "gsettings set org.cinnamon.desktop.interface gtk-theme 'Aero'"
+Shell "gsettings set org.cinnamon.desktop.interface icon-theme 'Windows'"
+Shell "gsettings set org.gnome.shell.overrides button-layout :minimize,maximize,close"
+Shell "gsettings set org.gnome.desktop.wm.preferences button-layout :minimize,maximize,close"
+Shell "gsettings set org.cinnamon.desktop.wm.preferences button-layout :minimize,maximize,close"
+Shell "gsettings set org.cinnamon.desktop.interface gtk-decoration-layout menu:minimize,maximize,close"
+Shell "killall docky"
+Shell "rm ~/.config/autostart/docky.desktop"
+Shell "gsettings set org.cinnamon desktop-layout 'traditional'"
+Shell "gsettings set org.cinnamon.muffin button-layout menu:minimize,maximize,close"
+Shell "gsettings set org.cinnamon.desktop.interface gtk-decoration-layout menu:minimize,maximize,close"
+
+End
+
+Public Sub Label160_MouseDown()
+
+  Shell "gsettings set org.gnome.desktop.interface gtk-theme 'Aero'"
+  Shell "gsettings set org.gnome.desktop.wm.preferences theme 'Aero-Blue'"
+  Shell "gsettings set org.gnome.desktop.interface icon-theme 'Windows'"
+  Shell "gsettings set org.cinnamon.theme name 'Windows Se7en Default'"
+  Shell "gsettings set org.cinnamon.desktop.wm.preferences theme 'Aero-Blue'"
+  Shell "gsettings set org.cinnamon.desktop.interface gtk-theme 'Aero'"
+Shell "gsettings set org.cinnamon.desktop.interface icon-theme 'Windows'"
+Shell "gsettings set org.gnome.shell.overrides button-layout :minimize,maximize,close"
+Shell "gsettings set org.gnome.desktop.wm.preferences button-layout :minimize,maximize,close"
+Shell "gsettings set org.cinnamon.desktop.wm.preferences button-layout :minimize,maximize,close"
+Shell "gsettings set org.cinnamon.desktop.interface gtk-decoration-layout menu:minimize,maximize,close"
+Shell "killall docky"
+Shell "rm ~/.config/autostart/docky.desktop"
+Shell "gsettings set org.cinnamon desktop-layout 'traditional'"
+Shell "gsettings set org.cinnamon.muffin button-layout menu:minimize,maximize,close"
+Shell "gsettings set org.cinnamon.desktop.interface gtk-decoration-layout menu:minimize,maximize,close"
+
+End
+
+Public Sub PictureBox17_MouseDown()
+
+  Shell "gsettings set org.gnome.desktop.interface gtk-theme 'Aero'"
+  Shell "gsettings set org.gnome.desktop.wm.preferences theme 'Aero-Blue'"
+  Shell "gsettings set org.gnome.desktop.interface icon-theme 'Vista'"
+  Shell "gsettings set org.cinnamon.theme name 'Vistalooks911 Relook v8.2 (Cinnamon Edition)'"
+  Shell "gsettings set org.cinnamon.desktop.wm.preferences theme 'Aero-Blue'"
+  Shell "gsettings set org.cinnamon.desktop.interface gtk-theme 'Aero'"
+Shell "gsettings set org.cinnamon.desktop.interface icon-theme 'Vista'"
+Shell "gsettings set org.gnome.shell.overrides button-layout :minimize,maximize,close"
+Shell "gsettings set org.gnome.desktop.wm.preferences button-layout :minimize,maximize,close"
+Shell "gsettings set org.cinnamon.desktop.wm.preferences button-layout :minimize,maximize,close"
+Shell "gsettings set org.cinnamon.desktop.interface gtk-decoration-layout menu:minimize,maximize,close"
+Shell "killall docky"
+Shell "rm ~/.config/autostart/docky.desktop"
+Shell "gsettings set org.cinnamon desktop-layout 'traditional'"
+Shell "gsettings set org.cinnamon.muffin button-layout menu:minimize,maximize,close"
+Shell "gsettings set org.cinnamon.desktop.interface gtk-decoration-layout menu:minimize,maximize,close"
+
+End
+
+Public Sub Label161_MouseDown()
+
+  Shell "gsettings set org.gnome.desktop.interface gtk-theme 'Aero'"
+  Shell "gsettings set org.gnome.desktop.wm.preferences theme 'Aero-Blue'"
+  Shell "gsettings set org.gnome.desktop.interface icon-theme 'Vista'"
+  Shell "gsettings set org.cinnamon.theme name 'Vistalooks911 Relook v8.2 (Cinnamon Edition)'"
+  Shell "gsettings set org.cinnamon.desktop.wm.preferences theme 'Aero-Blue'"
+  Shell "gsettings set org.cinnamon.desktop.interface gtk-theme 'Aero'"
+Shell "gsettings set org.cinnamon.desktop.interface icon-theme 'Vista'"
+Shell "gsettings set org.gnome.shell.overrides button-layout :minimize,maximize,close"
+Shell "gsettings set org.gnome.desktop.wm.preferences button-layout :minimize,maximize,close"
+Shell "gsettings set org.cinnamon.desktop.wm.preferences button-layout :minimize,maximize,close"
+Shell "gsettings set org.cinnamon.desktop.interface gtk-decoration-layout menu:minimize,maximize,close"
+Shell "killall docky"
+Shell "rm ~/.config/autostart/docky.desktop"
+Shell "gsettings set org.cinnamon desktop-layout 'traditional'"
+Shell "gsettings set org.cinnamon.muffin button-layout menu:minimize,maximize,close"
+Shell "gsettings set org.cinnamon.desktop.interface gtk-decoration-layout menu:minimize,maximize,close"
+
+End
+
+Public Sub PictureBox18_MouseDown()
+
+  Shell "gsettings set org.gnome.desktop.interface gtk-theme 'Aero-Basic'"
+  Shell "gsettings set org.gnome.desktop.wm.preferences theme 'Win2-7Basic'"
+  Shell "gsettings set org.gnome.desktop.interface icon-theme 'Vista'"
+  Shell "gsettings set org.cinnamon.theme name 'Vistalooks911 Relook v8.2 (Cinnamon Edition)'"
+  Shell "gsettings set org.cinnamon.desktop.wm.preferences theme 'Win2-7Basic'"
+  Shell "gsettings set org.cinnamon.desktop.interface gtk-theme 'Aero-Basic'"
+Shell "gsettings set org.cinnamon.desktop.interface icon-theme 'Vista'"
+Shell "gsettings set org.gnome.shell.overrides button-layout :minimize,maximize,close"
+Shell "gsettings set org.gnome.desktop.wm.preferences button-layout :minimize,maximize,close"
+Shell "gsettings set org.cinnamon.desktop.wm.preferences button-layout :minimize,maximize,close"
+Shell "gsettings set org.cinnamon.desktop.interface gtk-decoration-layout menu:minimize,maximize,close"
+Shell "killall docky"
+Shell "rm ~/.config/autostart/docky.desktop"
+Shell "gsettings set org.cinnamon desktop-layout 'traditional'"
+Shell "gsettings set org.cinnamon.muffin button-layout menu:minimize,maximize,close"
+Shell "gsettings set org.cinnamon.desktop.interface gtk-decoration-layout menu:minimize,maximize,close"
+
+End
+
+Public Sub Label162_MouseDown()
+  
+  Shell "gsettings set org.gnome.desktop.interface gtk-theme 'Aero-Basic'"
+  Shell "gsettings set org.gnome.desktop.wm.preferences theme 'Win2-7Basic'"
+  Shell "gsettings set org.gnome.desktop.interface icon-theme 'Vista'"
+  Shell "gsettings set org.cinnamon.theme name 'Vistalooks911 Relook v8.2 (Cinnamon Edition)'"
+  Shell "gsettings set org.cinnamon.desktop.wm.preferences theme 'Win2-7Basic'"
+  Shell "gsettings set org.cinnamon.desktop.interface gtk-theme 'Aero-Basic'"
+Shell "gsettings set org.cinnamon.desktop.interface icon-theme 'Vista'"
+Shell "gsettings set org.gnome.shell.overrides button-layout :minimize,maximize,close"
+Shell "gsettings set org.gnome.desktop.wm.preferences button-layout :minimize,maximize,close"
+Shell "gsettings set org.cinnamon.desktop.wm.preferences button-layout :minimize,maximize,close"
+Shell "gsettings set org.cinnamon.desktop.interface gtk-decoration-layout menu:minimize,maximize,close"
+Shell "killall docky"
+Shell "rm ~/.config/autostart/docky.desktop"
+Shell "gsettings set org.cinnamon desktop-layout 'traditional'"
+Shell "gsettings set org.cinnamon.muffin button-layout menu:minimize,maximize,close"
+Shell "gsettings set org.cinnamon.desktop.interface gtk-decoration-layout menu:minimize,maximize,close"
+
+End

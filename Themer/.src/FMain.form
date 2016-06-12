@@ -1,0 +1,1081 @@
+# Gambas Form File 3.0
+
+{ Form Form
+  MoveScaled(0,0,119,76)
+  Text = ("Themer")
+  Icon = Picture["feren-themer.png"]
+  Resizable = False
+  { linuxmintthemes Panel
+    MoveScaled(0,8,92,68)
+    Visible = False
+    Background = &HFFFFFF&
+    { Label109 Label
+      MoveScaled(4,11,6,6)
+      Text = (" ")
+    }
+    { Label110 Label
+      MoveScaled(12,11,6,6)
+      Text = (" ")
+    }
+    { Label111 Label
+      MoveScaled(20,11,6,6)
+      Text = (" ")
+    }
+    { Label112 Label
+      MoveScaled(28,19,6,6)
+      Text = (" ")
+    }
+    { Label113 Label
+      MoveScaled(36,19,6,6)
+      Text = (" ")
+    }
+    { Label114 Label
+      MoveScaled(43,19,6,6)
+      Text = (" ")
+    }
+    { Label115 Label
+      MoveScaled(51,19,6,6)
+      Text = (" ")
+    }
+    { Label116 Label
+      MoveScaled(59,19,6,6)
+      Text = (" ")
+    }
+    { Label117 Label
+      MoveScaled(2,2,43,4)
+      Text = ("Mint X Colours: (Change is coming...)")
+    }
+    { Button13 Button
+      MoveScaled(2,7,57,5)
+      Text = ("Default (Green)")
+    }
+    { Button14 Button
+      MoveScaled(2,13,57,5)
+      Text = ("Blue")
+    }
+    { Button15 Button
+      MoveScaled(2,19,57,5)
+      Text = ("Aqua")
+    }
+    { Button16 Button
+      MoveScaled(2,25,57,5)
+      Text = ("Orange")
+    }
+    { Button17 Button
+      MoveScaled(2,31,57,5)
+      Text = ("Pink")
+    }
+    { Button18 Button
+      MoveScaled(2,37,57,5)
+      Text = ("Purple")
+    }
+    { Button19 Button
+      MoveScaled(2,43,57,5)
+      Text = ("Red")
+    }
+    { Button20 Button
+      MoveScaled(2,49,57,5)
+      Text = ("Sand")
+    }
+    { Button11 Button
+      MoveScaled(2,55,57,5)
+      Text = ("LINUX MINT")
+    }
+  }
+  { ozonthemes Panel
+    MoveScaled(0,8,92,68)
+    Visible = False
+    Background = &HFFFFFF&
+    { Label118 Label
+      MoveScaled(4,11,6,6)
+      Text = (" ")
+    }
+    { Label119 Label
+      MoveScaled(12,11,6,6)
+      Text = (" ")
+    }
+    { Label120 Label
+      MoveScaled(20,11,6,6)
+      Text = (" ")
+    }
+    { Label121 Label
+      MoveScaled(28,19,6,6)
+      Text = (" ")
+    }
+    { Label122 Label
+      MoveScaled(36,19,6,6)
+      Text = (" ")
+    }
+    { Label123 Label
+      MoveScaled(43,19,6,6)
+      Text = (" ")
+    }
+    { Label124 Label
+      MoveScaled(51,19,6,6)
+      Text = (" ")
+    }
+    { Label125 Label
+      MoveScaled(59,19,6,6)
+      Text = (" ")
+    }
+    { Button21 Button
+      MoveScaled(2,2,88,64)
+      Text = ("Ozon")
+      Picture = Picture["Ozon OS Preview.png"]
+    }
+  }
+  { Win7Themes Panel
+    MoveScaled(0,8,92,68)
+    Visible = False
+    Background = &HFFFFFF&
+    { PictureBox3 PictureBox
+      MoveScaled(3,2,18.8571,14.1429)
+      Picture = Picture["Windows 7 Basic Preview.png"]
+      Stretch = True
+    }
+    { Label145 Label
+      MoveScaled(3,17,19,4)
+      Font = Font["Lato,+1"]
+      Text = ("Windows 7 Basic")
+      Alignment = Align.Center
+    }
+    { PictureBox9 PictureBox
+      MoveScaled(24,2.1429,18.8571,13.8571)
+      Picture = Picture["Windows 7 Aero Preview.png"]
+      Stretch = True
+    }
+    { Label150 Label
+      MoveScaled(24,17,19,4)
+      Font = Font["Lato,+1"]
+      Text = ("Windows 7 Aero")
+      Alignment = Align.Center
+    }
+    { PictureBox10 PictureBox
+      MoveScaled(45,2.1429,18.8571,13.8571)
+      Picture = Picture["Windows 7 Aero Preview.png"]
+      Stretch = True
+    }
+    { Label151 Label
+      MoveScaled(45,17,19,4)
+      Font = Font["Lato,+1"]
+      Text = ("Windows 7 Dark Aero")
+      Alignment = Align.Center
+    }
+    { PictureBox11 PictureBox
+      MoveScaled(66,2.1429,18.8571,13.8571)
+      Picture = Picture["Windows 7 Aero Preview.png"]
+      Stretch = True
+    }
+    { Label152 Label
+      MoveScaled(66,17,19,4)
+      Font = Font["Lato,+1"]
+      Text = ("Windows 7 White")
+      Alignment = Align.Center
+    }
+    { PictureBox16 PictureBox
+      MoveScaled(3,22,18.8571,13.8571)
+      Picture = Picture["Windows 7 Aero Preview.png"]
+      Stretch = True
+    }
+    { Label160 Label
+      MoveScaled(3,37,19,4)
+      Font = Font["Lato,+1"]
+      Text = ("Windows 7 Default")
+      Alignment = Align.Center
+    }
+    { PictureBox17 PictureBox
+      MoveScaled(3,47,18.8571,13.8571)
+      Picture = Picture["Windows 7 Aero Preview.png"]
+      Stretch = True
+    }
+    { Label161 Label
+      MoveScaled(3,62,19,4)
+      Font = Font["Lato,+1"]
+      Text = ("Windows Vista")
+      Alignment = Align.Center
+    }
+    { Label162 Label
+      MoveScaled(24,62,19,4)
+      Font = Font["Lato,+1"]
+      Text = ("Windows Vista Basic")
+      Alignment = Align.Center
+    }
+    { PictureBox18 PictureBox
+      MoveScaled(24,47,18.8571,13.8571)
+      Picture = Picture["Windows 7 Aero Preview.png"]
+      Stretch = True
+    }
+    { Panel10 Panel
+      MoveScaled(1,45.5714,90,0.4286)
+      Background = Color.LightGray
+    }
+  }
+  { Win8Themes Panel
+    MoveScaled(0,8,92,68)
+    Background = &HFFFFFF&
+    { Label15 Label
+      MoveScaled(1,1,68,5)
+      Font = Font["Segoe UI,+5"]
+      Foreground = Color.SelectedBackground
+      Text = (" Select a Colour...")
+    }
+    { PictureBox1 PictureBox
+      MoveScaled(2,8,74,24)
+      Picture = Picture["win8-colours.png"]
+    }
+    { Label31 Label
+      MoveScaled(68,21,6,6)
+      Text = (" ")
+    }
+    { Label30 Label
+      MoveScaled(59,21,6,6)
+      Text = (" ")
+    }
+    { Label29 Label
+      MoveScaled(50,21,6,6)
+      Text = (" ")
+    }
+    { Label28 Label
+      MoveScaled(41,21,6,6)
+      Text = (" ")
+    }
+    { Label27 Label
+      MoveScaled(32,21,6,6)
+      Text = (" ")
+    }
+    { Label26 Label
+      MoveScaled(5,21,6,6)
+      Text = (" ")
+    }
+    { Label25 Label
+      MoveScaled(23,21,6,6)
+      Text = (" ")
+    }
+    { Label24 Label
+      MoveScaled(14,21,6,6)
+      Text = (" ")
+    }
+    { Label23 Label
+      MoveScaled(68,12,6,6)
+      Text = (" ")
+    }
+    { Label21 Label
+      MoveScaled(50,12,6,6)
+      Text = (" ")
+    }
+    { Label20 Label
+      MoveScaled(41,12,6,6)
+      Text = (" ")
+    }
+    { Label19 Label
+      MoveScaled(32,12,6,6)
+      Text = (" ")
+    }
+    { Label18 Label
+      MoveScaled(23,12,6,6)
+      Text = (" ")
+    }
+    { Label17 Label
+      MoveScaled(14,12,6,6)
+      Text = (" ")
+    }
+    { Label16 Label
+      MoveScaled(4,11,7,7)
+      Text = (" ")
+    }
+  }
+  { WinXPThemes Panel
+    MoveScaled(0,8,92,68)
+    Visible = False
+    Background = &HFFFFFF&
+    { Label33 Label
+      MoveScaled(4,11,6,6)
+      Text = (" ")
+    }
+    { Label34 Label
+      MoveScaled(12,11,6,6)
+      Text = (" ")
+    }
+    { Label35 Label
+      MoveScaled(20,11,6,6)
+      Text = (" ")
+    }
+    { Label36 Label
+      MoveScaled(28,19,6,6)
+      Text = (" ")
+    }
+    { Label37 Label
+      MoveScaled(36,19,6,6)
+      Text = (" ")
+    }
+    { Label38 Label
+      MoveScaled(43,19,6,6)
+      Text = (" ")
+    }
+    { Label39 Label
+      MoveScaled(51,19,6,6)
+      Text = (" ")
+    }
+    { Label40 Label
+      MoveScaled(59,19,6,6)
+      Text = (" ")
+    }
+    { PictureBox4 PictureBox
+      MoveScaled(4,2,34.8571,18.1429)
+      Picture = Picture["Windows XP Preview.png"]
+      Stretch = True
+    }
+    { Label146 Label
+      MoveScaled(4,21,35,4)
+      Font = Font["Lato,+1"]
+      Text = ("Windows XP Luna")
+      Alignment = Align.Center
+    }
+    { PictureBox5 PictureBox
+      MoveScaled(41,2,34.8571,18.1429)
+      Picture = Picture["Windows XP Olive Preview.png"]
+      Stretch = True
+    }
+    { Label147 Label
+      MoveScaled(41,21,34.8571,4)
+      Font = Font["Lato,+1"]
+      Text = ("Windows XP Olive")
+      Alignment = Align.Center
+    }
+    { PictureBox6 PictureBox
+      MoveScaled(4,26,34.8571,18.1429)
+      Picture = Picture["Windows XP Silver Preview.png"]
+      Stretch = True
+    }
+    { Label148 Label
+      MoveScaled(4,45,34.8571,4)
+      Font = Font["Lato,+1"]
+      Text = ("Windows XP Silver")
+      Alignment = Align.Center
+    }
+    { PictureBox7 PictureBox
+      MoveScaled(41,26,34.8571,18)
+      Visible = False
+      Picture = Picture["Windows 8 Basic Preview.png"]
+      Stretch = True
+    }
+    { Label149 Label
+      MoveScaled(41,45,34.8571,4)
+      Visible = False
+      Font = Font["Lato,+1"]
+      Text = ("Microsoft Zune")
+      Alignment = Align.Center
+    }
+  }
+  { flatthemesThemes Panel
+    MoveScaled(0,8,92,68)
+    Visible = False
+    Background = &HFFFFFF&
+    { Label127 Label
+      MoveScaled(4,11,6,6)
+      Text = (" ")
+    }
+    { Label128 Label
+      MoveScaled(12,11,6,6)
+      Text = (" ")
+    }
+    { Label129 Label
+      MoveScaled(20,11,6,6)
+      Text = (" ")
+    }
+    { Label130 Label
+      MoveScaled(28,19,6,6)
+      Text = (" ")
+    }
+    { Label131 Label
+      MoveScaled(36,19,6,6)
+      Text = (" ")
+    }
+    { Label132 Label
+      MoveScaled(43,19,6,6)
+      Text = (" ")
+    }
+    { Label133 Label
+      MoveScaled(51,19,6,6)
+      Text = (" ")
+    }
+    { Label134 Label
+      MoveScaled(59,19,6,6)
+      Text = (" ")
+    }
+    { Label153 Label
+      MoveScaled(1,1,90,66)
+      Font = Font["Kozuka Gothic Pr6N,+11"]
+      Text = ("Coming soon...")
+      Alignment = Align.Center
+    }
+  }
+  { win10themesThemes Panel
+    MoveScaled(0,8,92,69)
+    Visible = False
+    Background = &HFFFFFF&
+    { Label136 Label
+      MoveScaled(4,11,6,6)
+      Text = (" ")
+    }
+    { Label137 Label
+      MoveScaled(12,11,6,6)
+      Text = (" ")
+    }
+    { Label138 Label
+      MoveScaled(20,11,6,6)
+      Text = (" ")
+    }
+    { Label139 Label
+      MoveScaled(28,19,6,6)
+      Text = (" ")
+    }
+    { Label140 Label
+      MoveScaled(36,19,6,6)
+      Text = (" ")
+    }
+    { Label141 Label
+      MoveScaled(43,19,6,6)
+      Text = (" ")
+    }
+    { Label142 Label
+      MoveScaled(51,19,6,6)
+      Text = (" ")
+    }
+    { Label143 Label
+      MoveScaled(59,19,6,6)
+      Text = (" ")
+    }
+    { PictureBox2 PictureBox
+      MoveScaled(2,2,35,21)
+      Picture = Picture["Windows 10 Preview.png"]
+      Stretch = True
+    }
+    { Label144 Label
+      MoveScaled(2,24,35,4)
+      Font = Font["Lato,+1"]
+      Text = ("Windows 10")
+      Alignment = Align.Center
+    }
+    { PictureBox14 PictureBox
+      MoveScaled(38,2,35,21)
+      Picture = Picture["Windows 10 Dark Preview.png"]
+      Stretch = True
+    }
+    { Label157 Label
+      MoveScaled(38,24,35,4)
+      Font = Font["Lato,+1"]
+      Text = ("Windows 10 DARK")
+      Alignment = Align.Center
+    }
+    { Panel8 Panel
+      MoveScaled(0,51,92,68)
+      Visible = False
+      { PictureBox15 PictureBox
+        MoveScaled(0,0,92,68)
+        Visible = False
+        Picture = Picture["Windows 10 theme missing message.png"]
+      }
+      { Panel9 Panel
+        MoveScaled(0,19,92,28)
+        Visible = False
+        Background = &HFFFFFF&
+        { Label158 Label
+          MoveScaled(0,2,92,7)
+          Font = Font["Lato,+8"]
+          Text = ("Themes are incomplete")
+          Alignment = Align.Center
+        }
+        { Label159 Label
+          MoveScaled(0,9,92,9)
+          Font = Font["Lato,+1"]
+          Text = ("The icon sets for these themes are missing from the Operating System. We can download and install them\nnow for you if you enter your Administrator password (Your password for your user) and your user is an\nAdministrator account.")
+          Alignment = Align.Center
+        }
+        { Button3 Button
+          MoveScaled(46,19,43,6)
+          Text = ("Install icon sets now (Requires Admin Privelleges)")
+        }
+        { Button4 Button
+          MoveScaled(3,19,43,6)
+          Text = ("Let me choose the themes anyway")
+        }
+      }
+    }
+  }
+  { win2kThemes Panel
+    MoveScaled(0,8,92,69)
+    Visible = False
+    Background = &HFFFFFF&
+    { Label32 Label
+      MoveScaled(4,11,6,6)
+      Text = (" ")
+    }
+    { Label41 Label
+      MoveScaled(12,11,6,6)
+      Text = (" ")
+    }
+    { Label42 Label
+      MoveScaled(20,11,6,6)
+      Text = (" ")
+    }
+    { Label43 Label
+      MoveScaled(28,19,6,6)
+      Text = (" ")
+    }
+    { Label44 Label
+      MoveScaled(36,19,6,6)
+      Text = (" ")
+    }
+    { Label45 Label
+      MoveScaled(43,19,6,6)
+      Text = (" ")
+    }
+    { Label46 Label
+      MoveScaled(51,19,6,6)
+      Text = (" ")
+    }
+    { Label47 Label
+      MoveScaled(59,19,6,6)
+      Text = (" ")
+    }
+    { Button5 Button
+      MoveScaled(2,2,89,14)
+      NoTabFocus = True
+      Text = ("Windows 2k / Below")
+      Picture = Picture["Windows 2k and below preview.png"]
+    }
+    { Button22 Button
+      MoveScaled(2,17,89,14)
+      NoTabFocus = True
+      Text = (" Windows 3.1              ")
+      Picture = Picture["Windows 3.x Preview.png"]
+    }
+  }
+  { macosxthemes Panel
+    MoveScaled(0,8,92,68)
+    Visible = False
+    Background = &HFFFFFF&
+    { Button6 Button
+      MoveScaled(2,2,88,14)
+      NoTabFocus = True
+      Text = ("Mac OS X Yosemite")
+      Picture = Picture["mac yosemite preview.png"]
+    }
+    { Label48 Label
+      MoveScaled(4,11,6,6)
+      Text = (" ")
+    }
+    { Label49 Label
+      MoveScaled(12,11,6,6)
+      Text = (" ")
+    }
+    { Label50 Label
+      MoveScaled(20,11,6,6)
+      Text = (" ")
+    }
+    { Button7 Button
+      MoveScaled(2,17,88,14)
+      NoTabFocus = True
+      Text = ("Mac OS X Mavericks")
+      Picture = Picture["mac mavericks preview.png"]
+    }
+    { Label51 Label
+      MoveScaled(28,19,6,6)
+      Text = (" ")
+    }
+    { Label52 Label
+      MoveScaled(36,19,6,6)
+      Text = (" ")
+    }
+    { Label53 Label
+      MoveScaled(43,19,6,6)
+      Text = (" ")
+    }
+    { Label54 Label
+      MoveScaled(51,19,6,6)
+      Text = (" ")
+    }
+    { Label55 Label
+      MoveScaled(59,19,6,6)
+      Text = (" ")
+    }
+  }
+  { ubuntuthemes Panel
+    MoveScaled(0,8,92,68)
+    Visible = False
+    Background = &HFFFFFF&
+    { Label56 Label
+      MoveScaled(4,11,6,6)
+      Text = (" ")
+    }
+    { Label57 Label
+      MoveScaled(12,11,6,6)
+      Text = (" ")
+    }
+    { Label58 Label
+      MoveScaled(20,11,6,6)
+      Text = (" ")
+    }
+    { Label59 Label
+      MoveScaled(28,19,6,6)
+      Text = (" ")
+    }
+    { Label60 Label
+      MoveScaled(36,19,6,6)
+      Text = (" ")
+    }
+    { Label61 Label
+      MoveScaled(43,19,6,6)
+      Text = (" ")
+    }
+    { Label62 Label
+      MoveScaled(51,19,6,6)
+      Text = (" ")
+    }
+    { Label63 Label
+      MoveScaled(59,19,6,6)
+      Text = (" ")
+    }
+    { Button8 Button
+      MoveScaled(1,2,36,14)
+      NoTabFocus = True
+      Text = ("Ubuntu Ambiance")
+      Picture = Picture["Ubuntu Ambiance preview.png"]
+    }
+    { Button9 Button
+      MoveScaled(37,2,36,14)
+      NoTabFocus = True
+      Text = ("Ubuntu Radiance")
+      Picture = Picture["Ubuntu Radiance preview.png"]
+    }
+    { Label64 Label
+      MoveScaled(1,31,34,4)
+      Visible = False
+      Text = (" Ambiance Flat Colours")
+    }
+    { Label65 Label
+      MoveScaled(37,31,33,4)
+      Visible = False
+      Text = (" Radiance Flat Colours")
+    }
+    { Label66 Label
+      MoveScaled(1,35,17,4)
+      Visible = False
+      Text = (" Flat Aqua")
+    }
+    { Label67 Label
+      MoveScaled(1,39,16,4)
+      Visible = False
+      Text = (" Flat Blue")
+    }
+    { Label68 Label
+      MoveScaled(1,43,16,4)
+      Visible = False
+      Text = (" Flat Blue Spring")
+    }
+    { Label69 Label
+      MoveScaled(1,47,16,4)
+      Visible = False
+      Text = (" Flat Brown")
+    }
+    { Label70 Label
+      MoveScaled(1,51,16,4)
+      Visible = False
+      Text = (" Flat Graphite")
+    }
+    { Label71 Label
+      MoveScaled(1,55,16,4)
+      Visible = False
+      Text = (" Flat Green")
+    }
+    { Label72 Label
+      MoveScaled(1,59,16,4)
+      Visible = False
+      Text = (" Flat Manila")
+    }
+    { Label73 Label
+      MoveScaled(1,63,16,4)
+      Visible = False
+      Text = (" Flat Orange")
+    }
+    { Label74 Label
+      MoveScaled(18,35,17,4)
+      Visible = False
+      Text = (" Flat Pink")
+    }
+    { Label75 Label
+      MoveScaled(18,39,17,4)
+      Visible = False
+      Text = (" Flat Purple")
+    }
+    { Label76 Label
+      MoveScaled(18,43,17,4)
+      Visible = False
+      Text = (" Flat Red")
+    }
+    { Label77 Label
+      MoveScaled(18,47,17,4)
+      Visible = False
+      Text = (" Flat Teal")
+    }
+    { Label78 Label
+      MoveScaled(18,51,17,4)
+      Visible = False
+      Text = (" Flat Yellow")
+    }
+    { Label79 Label
+      MoveScaled(37,35,17,4)
+      Visible = False
+      Text = (" Flat Aqua")
+    }
+    { Label80 Label
+      MoveScaled(54,35,17,4)
+      Visible = False
+      Text = (" Flat Pink")
+    }
+    { Label81 Label
+      MoveScaled(37,39,16,4)
+      Visible = False
+      Text = (" Flat Blue")
+    }
+    { Label82 Label
+      MoveScaled(54,39,17,4)
+      Visible = False
+      Text = (" Flat Purple")
+    }
+    { Label83 Label
+      MoveScaled(37,43,16,4)
+      Visible = False
+      Text = (" Flat Blue Spring")
+    }
+    { Label84 Label
+      MoveScaled(54,43,17,4)
+      Visible = False
+      Text = (" Flat Red")
+    }
+    { Label85 Label
+      MoveScaled(37,47,16,4)
+      Visible = False
+      Text = (" Flat Brown")
+    }
+    { Label86 Label
+      MoveScaled(54,47,17,4)
+      Visible = False
+      Text = (" Flat Teal")
+    }
+    { Label87 Label
+      MoveScaled(37,51,16,4)
+      Visible = False
+      Text = (" Flat Graphite")
+    }
+    { Label88 Label
+      MoveScaled(54,51,17,4)
+      Visible = False
+      Text = (" Flat Yellow")
+    }
+    { Label89 Label
+      MoveScaled(37,55,16,4)
+      Visible = False
+      Text = (" Flat Green")
+    }
+    { Label90 Label
+      MoveScaled(37,59,16,4)
+      Visible = False
+      Text = (" Flat Manila")
+    }
+    { Label91 Label
+      MoveScaled(37,63,16,4)
+      Visible = False
+      Text = (" Flat Orange")
+    }
+    { Button23 Button
+      MoveScaled(1,16,36,14)
+      NoTabFocus = True
+      Text = ("Ubuntu Touch")
+      Picture = Picture["Ubuntu Ambiance preview.png"]
+    }
+  }
+  { ferenthemes Panel
+    MoveScaled(0,8,92,68)
+    Background = &HFFFFFF&
+    { Label92 Label
+      MoveScaled(4,11,6,6)
+      Text = (" ")
+    }
+    { Label93 Label
+      MoveScaled(12,11,6,6)
+      Text = (" ")
+    }
+    { Label94 Label
+      MoveScaled(20,11,6,6)
+      Text = (" ")
+    }
+    { Label95 Label
+      MoveScaled(28,19,6,6)
+      Text = (" ")
+    }
+    { Label96 Label
+      MoveScaled(36,19,6,6)
+      Text = (" ")
+    }
+    { Label97 Label
+      MoveScaled(43,19,6,6)
+      Text = (" ")
+    }
+    { Label98 Label
+      MoveScaled(51,19,6,6)
+      Text = (" ")
+    }
+    { Label99 Label
+      MoveScaled(59,19,6,6)
+      Text = (" ")
+    }
+    { PictureBox8 PictureBox
+      MoveScaled(3,3,29,17)
+      Picture = Picture["feren preview.png"]
+      Stretch = True
+    }
+    { Label100 Label
+      MoveScaled(3,21,29,4)
+      Font = Font["Lato,+1"]
+      Text = ("feren Default")
+      Alignment = Align.Center
+    }
+  }
+  { numixthemes Panel
+    MoveScaled(0,8,92,68)
+    Visible = False
+    Background = &HFFFFFF&
+    { Button10 Button
+      MoveScaled(1.5714,2,30,14)
+      NoTabFocus = True
+      Text = (" Numix")
+      Picture = Picture["Numix Preview.png"]
+    }
+    { Button12 Button
+      MoveScaled(33.1429,2,57,14)
+      NoTabFocus = True
+      Text = ("Numix Frost")
+    }
+    { Label101 Label
+      MoveScaled(18.4286,11,6,6)
+      Text = (" ")
+    }
+    { Label102 Label
+      MoveScaled(42.8571,11,6,6)
+      Text = (" ")
+    }
+    { Label103 Label
+      MoveScaled(67.4286,11,6,6)
+      Text = (" ")
+    }
+    { Button30 Button
+      MoveScaled(2,17,88,16)
+      NoTabFocus = True
+      Text = ("Arc")
+      Picture = Picture["arc preview.png"]
+    }
+    { Label104 Label
+      MoveScaled(10.1429,19,6,6)
+      Text = (" ")
+    }
+    { Label105 Label
+      MoveScaled(26.5714,19,6,6)
+      Text = (" ")
+    }
+    { Label106 Label
+      MoveScaled(42.8571,19,6,6)
+      Text = (" ")
+    }
+    { Label107 Label
+      MoveScaled(59.1429,19,6,6)
+      Text = (" ")
+    }
+    { Label108 Label
+      MoveScaled(75.5714,19,6,6)
+      Text = (" ")
+    }
+    { Button1 Button
+      MoveScaled(2,34,88,16)
+      NoTabFocus = True
+      Text = ("Trevilla")
+      Picture = Picture["Trevilla Preview.png"]
+    }
+    { Button2 Button
+      MoveScaled(2,51,88,16)
+      NoTabFocus = True
+      Text = ("EvoPop")
+      Picture = Picture["EvoPop Preview.png"]
+    }
+  }
+  { Panel2 Panel
+    MoveScaled(92,0,27,76)
+    Background = Color.SelectedBackground
+    { Label3 Label
+      MoveScaled(1,5,24,4)
+      Font = Font["Kozuka Gothic Pro,+1"]
+      Foreground = Color.SelectedForeground
+      Mouse = Mouse.Pointing
+      Text = (" Windows 8")
+    }
+    { Label4 Label
+      MoveScaled(1,9,24,4)
+      Font = Font["Kozuka Gothic Pro,+1"]
+      Foreground = Color.SelectedForeground
+      Mouse = Mouse.Pointing
+      Text = (" Windows 7 & Vista")
+    }
+    { Label5 Label
+      MoveScaled(1,13,24,4)
+      Font = Font["Kozuka Gothic Pro,+1"]
+      Foreground = Color.SelectedForeground
+      Mouse = Mouse.Pointing
+      Text = (" Windows XP")
+    }
+    { Label6 Label
+      MoveScaled(1,17,24,4)
+      Font = Font["Kozuka Gothic Pro,+1"]
+      Foreground = Color.SelectedForeground
+      Mouse = Mouse.Pointing
+      Text = (" Windows 2k and Below")
+    }
+    { Label8 Label
+      MoveScaled(1,25,24,4)
+      Font = Font["Kozuka Gothic Pro,+1"]
+      Foreground = Color.SelectedForeground
+      Mouse = Mouse.Pointing
+      Text = (" Ubuntu")
+    }
+    { Label9 Label
+      MoveScaled(1,37,24,4)
+      Font = Font["Kozuka Gothic Pro,+1"]
+      Foreground = Color.LightBackground
+      Text = (" Community Driven:")
+    }
+    { Label10 Label
+      MoveScaled(1,41,24,4)
+      Font = Font["Kozuka Gothic Pro,+1"]
+      Foreground = Color.SelectedForeground
+      Mouse = Mouse.Pointing
+      Text = (" Popular Flat Themes")
+    }
+    { Label11 Label
+      MoveScaled(1,71,24,4)
+      Visible = False
+      Font = Font["Kozuka Gothic Pro,+1"]
+      Foreground = &HFFFFFF&
+      Text = (" Ozon OS")
+    }
+    { Label12 Label
+      MoveScaled(1,45,24,4)
+      Font = Font["Kozuka Gothic Pro,+1"]
+      Foreground = Color.SelectedForeground
+      Mouse = Mouse.Pointing
+      Text = (" Conceptual Themes")
+    }
+    { Label13 Label
+      MoveScaled(1,29,24,4)
+      Font = Font["Kozuka Gothic Pro,+1"]
+      Foreground = Color.SelectedForeground
+      Mouse = Mouse.Pointing
+      Text = (" feren OS")
+    }
+    { Label14 Label
+      MoveScaled(1,33,24,4)
+      Font = Font["Kozuka Gothic Pro,+1"]
+      Foreground = Color.SelectedForeground
+      Mouse = Mouse.Pointing
+      Text = (" Linux Mint")
+    }
+    { Label126 Label
+      MoveScaled(1,49,24,4)
+      Font = Font["Kozuka Gothic Pro,+1"]
+      Foreground = Color.SelectedForeground
+      Mouse = Mouse.Wait
+      Text = (" More coming soon...")
+    }
+    { Label135 Label
+      MoveScaled(1,1,24,4)
+      Font = Font["Kozuka Gothic Pro,+1"]
+      Foreground = Color.SelectedForeground
+      Mouse = Mouse.Pointing
+      Text = (" Windows 10")
+    }
+    { Label7 Label
+      MoveScaled(1,21,24,4)
+      Font = Font["Kozuka Gothic Pro,+1"]
+      Foreground = Color.SelectedForeground
+      Mouse = Mouse.Pointing
+      Text = (" Mac OSX")
+    }
+  }
+  { Panel1 Panel
+    MoveScaled(0,0,92,8)
+    Background = Color.SelectedBackground
+    { Label2 Label
+      MoveScaled(7,1,19,6)
+      Font = Font["Kozuka Gothic Pr6N,+9"]
+      Foreground = Color.SelectedForeground
+      Text = ("themer")
+    }
+    { Panel3 Panel
+      MoveScaled(0,8)
+    }
+    { Label1 Label
+      MoveScaled(31,2,54,4)
+      Font = Font["Lato,+1"]
+      Foreground = Color.LightBackground
+      Text = ("Any graphics used belong to their respective owners.")
+      Alignment = Align.Right
+    }
+    { PictureBox12 PictureBox
+      MoveScaled(1.8571,1.8571,4.5714,4.5714)
+      Picture = Picture["feren-themer-32.png"]
+    }
+    { PictureBox13 PictureBox
+      MoveScaled(87,2.5714,4,3)
+      Picture = Picture["language.png"]
+    }
+    { Panel5 Panel
+      MoveScaled(54,-47,13,6)
+      Visible = False
+      { Panel6 Panel
+        MoveScaled(0,0,6,6)
+        Background = Color.Background
+      }
+      { Panel7 Panel
+        MoveScaled(7,0,6,6)
+        Background = Color.Foreground
+      }
+    }
+  }
+  { Label22 Label
+    MoveScaled(59,20,6,6)
+    Text = (" ")
+  }
+  { Panel4 Panel
+    MoveScaled(68,7,24,15.4286)
+    Visible = False
+    Background = Color.Background
+    { Label154 Label
+      MoveScaled(0.1429,0.1429,23.8571,4.8571)
+      Font = Font["Kozuka Gothic Pro,12"]
+      Foreground = Color.Foreground
+      Text = ("   English (GB)")
+    }
+    { Label155 Label
+      MoveScaled(0.1429,5.1429,23.8571,4.8571)
+      Font = Font["Kozuka Gothic Pro,12"]
+      Foreground = Color.Foreground
+      Text = ("   English (US)")
+    }
+    { Label156 Label
+      MoveScaled(0.1429,10.1429,23.8571,4.8571)
+      Enabled = False
+      Font = Font["Kozuka Gothic Pro,12"]
+      Foreground = Color.LightForeground
+      Text = ("   French")
+    }
+  }
+}
