@@ -1,13 +1,14 @@
 # Gambas Project File 3.0
-# Compiled with Gambas 3.8.4
-Title=Themer 2015
+# Compiled with Gambas 3.9.2
+Title=Themer 2017.0
 Startup=FMain
-Version=0.0.10
+Version=0.0.37
 Component=gb.image
 Component=gb.gtk
 Component=gb.form
 Component=gb.vb
 TabSize=2
+Language=en_GB
 ControlPublic=1
 ModulePublic=1
 Packager=1

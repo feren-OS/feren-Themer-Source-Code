@@ -1,0 +1,32 @@
+# Gambas Form File 3.0
+
+{ Form Form
+  MoveScaled(0,0,64,62)
+  Resizable = False
+  Border = False
+  Stacking = Window.Above
+  Arrangement = Arrange.Vertical
+  Spacing = True
+  Margin = True
+  { PictureBox1 PictureBox
+    MoveScaled(0,2,64,20)
+    Picture = Picture["feren-themer.png"]
+    Alignment = Align.Center
+  }
+  { Label1 Label
+    MoveScaled(0,25,64,4)
+    Font = Font["Kozuka Gothic Pro,+7"]
+    Text = ("Welcome to Themer")
+    Alignment = Align.Center
+  }
+  { Label2 Label
+    MoveScaled(0,31,64,29)
+    Text = ("Themer is the new tool exclusive to feren OS designed for making\nferen OS look like your favourite or most familiar OS that you're\nused to using.\n\nWith Themer, you can either choose to make feren OS look familiar,\nor you could go adventurous with many theme options included with\nferen OS. The themes are easy to use as they are as simple as clicking\nor tapping on the theme you want to use and then Themer does the\nrest automatically for you. Panel Configuration, Theming, all of that, in\none click, is done so that the rest of the job to get a perfect look is made\neasier.")
+    Alignment = Align.Top
+  }
+  { btnOK Button
+    MoveScaled(19,61,26,4)
+    Text = ("Let's start theming")
+    Default = True
+  }
+}

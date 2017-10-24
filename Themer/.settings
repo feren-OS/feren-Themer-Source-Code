@@ -4,14 +4,20 @@ Count=0
 [DebugWindow]
 Count=0
 
+[DebugWindow/File]
+Geometry=[-9,18,224,280]
+
+[DebugWindow/String]
+Geometry=[0,26,224,280]
+
 [Executable]
-Path="/home/dominic/Desktop.old/ /ferenThemer.gambas"
+Path="/home/dominic/Desktop/Development/ferenThemer.gambas"
 
 [OpenFile]
-File[1]=".src/FMain.class:0.1923"
+File[1]=".src/FMain.form"
 Active=1
-File[2]=".src/FMain.form"
 Count=2
+File[2]=".src/FMain.class:2.1897"
 
 [Watches]
 Count=0

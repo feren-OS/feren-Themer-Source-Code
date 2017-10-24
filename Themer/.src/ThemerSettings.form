@@ -1,0 +1,110 @@
+# Gambas Form File 3.0
+
+{ Form Form
+  MoveScaled(0,0,64,60)
+  Background = Color.Background
+  Text = ("feren Themer Settings")
+  Resizable = False
+  Arrangement = Arrange.Vertical
+  Spacing = True
+  Margin = True
+  { Panel2 Panel
+    MoveScaled(0,0,64,8)
+    Background = Color.SelectedBackground
+    Foreground = &HFFFFFF&
+    { Panel11 Panel
+      MoveScaled(1.8571,1.8571,4.5714,4.5714)
+      Background = Color.SelectedBackground
+      { PictureBox12 PictureBox
+        MoveScaled(0,0,4.5714,4.5714)
+      }
+    }
+    { Label2 Label
+      MoveScaled(7,1,43,6)
+      Font = Font["Kozuka Gothic Pr6N,+9"]
+      Foreground = &HFFFFFF&
+      Text = ("themer Settings")
+    }
+    { Panel3 Panel
+      MoveScaled(0,8)
+    }
+    { Panel5 Panel
+      MoveScaled(54,-47,13,6)
+      Visible = False
+      { Panel6 Panel
+        MoveScaled(0,0,6,6)
+        Background = Color.Background
+      }
+      { Panel7 Panel
+        MoveScaled(7,0,6,6)
+        Background = Color.Foreground
+      }
+    }
+  }
+  { CheckBox1 CheckBox
+    MoveScaled(2,10,60,4)
+    Enabled = False
+    Text = ("Change Panel Preferences to Theme Configuration")
+    Value = CheckBox.True
+  }
+  { CheckBox2 CheckBox
+    MoveScaled(2,15,60,4)
+    Enabled = False
+    Text = ("Change Window Button Layout")
+    Value = CheckBox.True
+  }
+  { Label1 Label
+    MoveScaled(2,21,24,4)
+    Enabled = False
+    Text = ("Toolbar Theme:")
+  }
+  { RadioButton1 RadioButton
+    MoveScaled(2,26,24,4)
+    Enabled = False
+    Text = ("White Buttons")
+    Value = True
+  }
+  { RadioButton2 RadioButton
+    MoveScaled(2,31,24,4)
+    Enabled = False
+    Text = ("Black Buttons")
+  }
+  { Label5 Label
+    MoveScaled(2,37,61,4)
+    Enabled = False
+    Text = ("The Theming tool for newcomers to feren OS and Linux.")
+  }
+  { Label3 Label
+    MoveScaled(2,43,61,4)
+    Enabled = False
+    Text = ("Themer Version: 2017.0")
+  }
+  { Label4 Label
+    MoveScaled(2,48,24,4)
+    Enabled = False
+    Text = ("Author: The feren CEO")
+  }
+  { Button1 Button
+    MoveScaled(2,53,19,4)
+    Enabled = False
+    Text = ("Reset Preferences")
+  }
+  { HBox1 HBox
+    MoveScaled(1,59,62,4)
+    Spacing = True
+    { Panel1 Panel
+      MoveScaled(4,0,4,4)
+      Expand = True
+    }
+    { btnOK Button
+      MoveScaled(29,0,16,4)
+      Text = ("OK")
+      Default = True
+    }
+    { btnCancel Button
+      MoveScaled(46,0,16,4)
+      Text = ("Cancel")
+      Cancel = True
+    }
+  }
+}
